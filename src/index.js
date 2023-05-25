@@ -64,8 +64,8 @@ const fishes = [
         Seltene Trophäe: 4 kg
         Lebensraum: Untere Tunguska
         
-        Die Arktische Maräne (Coregonus autumnalis) lebt in der Küstenzone der Jenissei-Bucht. Während der Brutzeit steigt sie in die Flüsse auf, wo sie laicht. Der Fisch hat einen länglichen, glatten Körper. Der Rücken ist bräunlich-grün, die Seiten sind silber, der Bauch ist hell. Zum Fangen der Arktischen Maräne eignen sich Posenangeln, aber auch Spinn- und Grundmontagen.`,
-    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frf4game.de%2Fforum%2Fuploads%2Fmonthly_2022_08%2Frf4_4.0.18354_20220801_160554.png.b1103be26f9d7f395cfb0e51decaec20.png&f=1&nofb=1&ipt=d13746140969791985bd3a09770494d39790531482b56400d8824fc59cef6c4f&ipo=images'
+        Die Arktische Maräne (Coregonus autumnalis) lebt in der unteren Tunguska. Während der Brutzeit steigt sie in die Flüsse auf, wo sie laicht. Der Fisch hat einen länglichen, glatten Körper. Der Rücken ist bräunlich-grün, die Seiten sind silber, der Bauch ist hell. Zum Fangen der Arktischen Maräne eignen sich Posenangeln, aber auch Spinn- und Grundmontagen.`,
+    image: 'https://rf4game.de/forum/uploads/monthly_2020_07/a_omul.thumb.jpg.a0dcf5c15583bd54b7a6fbaca70d755c.jpg'
   },
 
   {
