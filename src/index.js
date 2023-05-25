@@ -649,7 +649,7 @@ const fishes = [
         text: `Normale Trophäe: 2 kg
         Seltene Trophäe: 2,5 kg
         
-        Der Lebensraum der Ostsibirischen Äsche (Thymallus arcticus pallasii) befindet sich im Strom Jenissei und dessen Nebelflüssen. Die Seiten und die Rückenflosse dieses Fisches sind mit kleinen schwarzen, roten und violetten Tupfen verziert. Die Rückenflosse selbst ist sehr hoch. Ein roter Streifen verläuft entlang ihres Randes. Sie wird am besten mit Posen- und Spinnangeln gefangen.`,
+        Der Lebensraum der Ostsibirischen Äsche (Thymallus arcticus pallasii) befindet sich in der unteren Tunguska. Die Seiten und die Rückenflosse dieses Fisches sind mit kleinen schwarzen, roten und violetten Tupfen verziert. Die Rückenflosse selbst ist sehr hoch. Ein roter Streifen verläuft entlang ihres Randes. Sie wird am besten mit Posen- und Spinnangeln gefangen.`,
         image:'https://rf4game.de/forum/uploads/monthly_2020_07/os_grayling.thumb.jpg.65ff29900ad171e1d3ab781c15928e45.jpg'
     },
 
@@ -683,23 +683,1140 @@ const fishes = [
     },
 
     {
-        name: 'Aal',
-        text: `Normale Trophäe: 4 kg
-        Seltene Trophäe: 7,5 kg
+        name: 'Esmarks Aalmutter',
+        text: `Normale Trophäe: 1,5 kg (Noch nicht bestätigt)
+        Seltene Trophäe: 2 kg (Noch nicht bestätigt)`,
+        image:'https://rf4.info/img/fish/167.png'
+    },
+
+    {
+        name: 'Seeteufel',
+        text: `Normale Trophäe: 35 kg
+        Seltene Trophäe: 45 kg`,
+        image:'https://rf4.info/img/fish/176.png'
+    },
+
+    {
+        name: 'Europäischer Seehecht',
+        text: `Normale Trophäe: 9 kg
+        Seltene Trophäe: 12 kg`,
+        image:'https://rf4.info/img/fish/172.png'
+    },
+
+    {
+        name: 'Scholle',
+        text: `Normale Trophäe: 4,5 kg
+        Seltene Trophäe: 5,5 kg`,
+        image:'https://rf4.info/img/fish/164.png'
+    },
+
+    {
+        name: 'Gemeiner Kalmar',
+        text: `Normale Trophäe: 2 kg
+        Seltene Trophäe: 2,4 kg`,
+        image:'https://rf4.info/img/fish/163.png'
+    },
+
+    {
+        name: 'Fernöstliches Neunauge',
+        text: `Normale Trophäe: 40 g (Noch nicht bestätigt)
+        Seltene Trophäe: 60 g (Noch nicht bestätigt)`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_05/fe_lamprey.thumb.jpg.d11297ad5a9b09aadf7d3bc2d8bf4612.jpg'
+    },
+
+    {
+        name: 'Albino Gerahmter Spiegelkarpfen',
+        text: `Normale Trophäe: 25 kg
+        Seltene Trophäe: 40 kg
+        
+        Wie andere Albino-Fische hat auch diese Form des Gerahmten Spiegelkarpfen eine leichte Färbung des Körpers, die durch die fehlende Pigmentierung von Schuppen und Haut verursacht wird. Außerdem sind die Augen der Albinokarpfen empfindlicher gegen Sonnenlicht, weshalb sie schattige Bereiche im Gewässer bevorzugen. Ansonsten unterscheiden sich diese Fische nicht von den gewöhnlichen Karpfen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/r_carp_albino.thumb.jpg.1199724bf597ef41c6ddfa24d4597960.jpg'
+    },
+
+    {
+        name: 'Gerahmter Spiegelkarpfen',
+        text: `Normale Trophäe: 25 kg
+        Seltene Trophäe: 40 kg
+        
+        Dieser Spiegelkarpfen zeichnet sich durch seinen hohen Körper aus. Er erhielt seinen Namen für die charakteristische Lage des Schuppenkleides. Groß und glänzend umrahmt es gleichsam den Fisch-Körper. Die Flanken des Gerahmten Spiegelkarpfen sind in der Regel schuppenfrei, können aber einzelne kleine Schuppen aufweisen. Bei der Zucht dieses Karpfens wurde besonderes Augenmerk auf die Erhöhung von Gewicht und Körperkraft gelegt.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/r_carp.thumb.jpg.bf9be17495755c307a8e46b0f530efc5.jpg'
+    },
+
+    {
+        name: 'Geister Gerahmter Spiegelkarpfen',
+        text: `Normale Trophäe: 25 kg
+        Seltene Trophäe: 40 kg
+        
+        Die Geister-Variante des Gerahmten Spiegelkarpfens ist eine Mischung aus der Gerahmten Form des Spiegelkarpfens und dem Koi-Karpfen. Das Ergebnis dieser Kreuzung ist ein ungewöhnlich farbenfroher Körper. Diese seltenen Karpfen werden von vielen Fischern geschätzt. Es wird angenommen, dass sie schlauer sind als ihre üblichen Verwandten, was bedeutet, dass sie viel schwerer zu fangen sind.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/r_carp_ghost.thumb.jpg.6b1c23c82eccb2aa6b377981f88973af.jpg'
+    },
+
+    {
+        name: 'Flusskrebs',
+        text: `Normale Trophäe: 200 g
+        Seltene Trophäe: 325 g
         
         Beschreibung und natürliches Vorkommen: 
-        Der Europäische Aal (Anguilla anguilla) ist in ganz Europa, Kleinasien und Nordafrika beheimatet. Er hat einen schlangenförmigen, langgestreckten, drehrunden Körper. Die Rücken-, Schwanz- und Afterflosse bilden einen durchgängigen Flossensaum. In der dicken Haut sind sehr kleine Rundschuppen eingebettet. Der Europäische Aal hat ein oberständiges Maul. Aale sind insbesondere in der Dämmerung und in der Nacht aktiv und gehen dann auf Nahrungssuche. Sie kommen in zwei Ernährungsvarianten vor: Dem Spitzkopfaal mit schmalem Kopf und spitz zulaufender Schnauze, der sich vorwiegend von Krebsen und anderen Wirbellosen ernährt, und dem Breitkopfaal mit breitem Kopf und breiter Schnauze, der ein Fischjäger ist. Der Europäische Aal gilt inzwischen als stark gefährdet. Ernährung: Aale ernähren sich vorwiegend von Würmern, (Klein-)Krebsen, Insektenlarven etc., aber auch von Fischlaich und Fischen. Kleinfische werden aktiv im Mittelwasser und an der Wasseroberfläche gejagt. Dabei erweist sich der Aal als geschickter Jäger. Maße: Erwachsene Weibchen können bis zu 200 cm lang und 6 kg schwer werden, Männchen erreichen nur 60 cm Länge. Solche Größen werden aber extrem selten erreicht und schon ein Weibchen von einem Meter Länge ist ausgesprochen groß`,
-        image:'https://rf4.info/img/fish/49.png'
+        Der Flusskrebs (Astacus astacus) ist der größte unter den in Europa heimischen Krebsarten. Der Flusskrebs kommt fast in ganz Europa vor. Der Flusskrebs liebt nährstoffreiche Gewässer der Niederungen, er ist aber auch in Fließgewässern höherer Lagen zu finden. Der Körper ist meist dunkelbraun bis rotbraun, seltener findet man auch Exemplare auch mit blauer Färbung. Der Kopf- und Rückenpanzer ist spitz auslaufend. Er ist vom Aussterben bedroht. Ernährung: Flusskrebse ernähren sich von vielfältigem organischem Material des Bodengrundes, aber auch kleinen Tieren und Fischen. Maße: Flusskrebse erreichen eine Länge bis 20 cm und ein Gewicht von bis zu 350 g.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/crawfish_m.thumb.png.4c79ac9c355faf641682021ec165084e.png'
     },
 
 
+    {
+        name: 'Grasfrosch',
+        text: `Normale Trophäe: 190 g
+        Seltene Trophäe: 250 g
+        
+        Beschreibung und natürliches Vorkommen:
+        Der Grasfrosch (Rana temporaria) ist im größten Teil Europas vertreten. Sein bevorzugter Lebensraum sind sonnige stehende oder sehr langsam fließende Gewässer. Die Färbung der Körper-Oberseite kann von gelb-rot bis zu dunkelbraun variieren, ebenso ist die Bemusterung individuell sehr verschieden. Nachts sind Grasfrösche aktiv, wogegen sie sich tagsüber gerne an bewachsenen, aber sonnigen Orten verstecken. Ernährung: Bei der Nahrungsaufnahme bevorzugen Grasfrösche Insekten wie Käfer, Heuschrecken, Würmer und Fliegen. Maße: Erwachsene Grasfrösche erreichen maximal 11 cm; Weibchen können geringfügig größer werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/frog_m.thumb.png.fbf26d7dedd3dc62dfe498b92550bd71.png'
+    },
 
+    {
+        name: 'Giebel',
+        text: `Normale Trophäe: 1,9 kg
+        Seltene Trophäe: 3,2 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Giebel, auch Silberkarausche genannt (Carassius gibelio), lebt in Eurasien im Süß- und Brackwasser und gehört zu den Karpfenartigen. Der Giebel ist die Stammform des Goldfisches. Er ist der Karausche (Carassius carassius) sowohl im Aussehen als auch in der Biologie sehr ähnlich. Der Giebel ist seit langem in Westasien und dem Schwarzmeergebiet bekannt, und sein Lebensraum erstreckt sich vermutlich bis nach Zentralasien. Die ursprüngliche Heimat des Giebels liegt in Ostasien und Sibirien. Giebel stellen an den Lebensraum keine hohen Ansprüche und leben gesellig in sommerwarmen, stehenden und fließenden Gewässern. Sie haben einen seitlich zusammengedrückten Körper, der mäßig hochrückig ist. Der Übergang vom Kopf zum Rücken verläuft beim Giebel in einem Knick. Der Rücken ist grün-grau bis graubraun gefärbt, die Flanken schimmern meist auffällig silbrig. Die Flossen sind hell- bis dunkelbraun gefärbt. Der Außenrand der Rückenflosse verläuft gerade oder ist leicht nach innen gewölbt. Die Schwanzflosse ist deutlich gegabelt. Das Maul ist endständig bis leicht unterständig, Barteln fehlen. Die Schuppen sind ziemlich groß. Das Bauchfell des Giebels ist dunkel pigmentiert. Ernährung Giebel sind hinsichtlich ihrer Ernährung sehr flexibel und ernähren sich sowohl von Insektenlarven als auch von pflanzlicher Nahrung. Maße: Der Giebel erreicht eine Länge von etwas über 40 cm und ein Gewicht von 1,5 - 2 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/crucian_m.thumb.png.10526d18031438322348308961152d23.png'
+    },
 
+    {
+        name: 'Goldschleie',
+        text: `Normale Trophäe: 4 kg
+        Seltene Trophäe: 6 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Ein Fisch aus der Familie der Karpfenfische (Cyprinidae). Die Goldschleie ist eine Zuchtform der Schleie (Tinca tinca). Als Herkunftsgebiet der Schleie gelten Europa, Kleinasien und Westsibirien. Die Schleie bevorzugt sommerwarme stehende oder langsam fließende Gewässer mit reicher Unterwasservegetation. Schleien sind hinsichtlich ihres Lebensraumes und der Wasserqualität nicht sehr anspruchsvoll, benötigen allerdings naturbelassene Uferbereiche mit guten Unterwasserpflanzenbeständen. Die Hauptaktivität der Goldschleien liegt in der Dämmerung und in den Nachtstunden. Sie stehen während der Nahrungsaufnahme regelrecht auf dem Kopf und durchwühlen mit ihrem vorstülpbaren Maul die Schlammschicht des Gewässergrundes. Die Schleie hat ein mäßig hochrückigen Körper mit deutlich abgerundeten Flossen, die Schwanzwurzel ist auffällig hoch, die kleinen Schuppen sind von eine dicken Schleimschicht überzogen. Die Iris der Augen ist meist intensiv rot oder dunkelorange gefärbt. Das Maul ist vorstülpbar, und in den Maulwinkeln sitzt jeweils eine relativ kurzer Bartel. Die Schlundzähne sind einreihig und sehen aus wie ein Haken. Typisch für die Schleie ihr gemächliches Verhalten während der Nahrungsaufnahme; aber auch sonst fallen die Bewegungen der Schleie meist recht langsam aus. Ernährung: Die Nahrung besteht großteils aus Insektenlarven, Würmer, Schnecken, kleinen Muschelarten und pflanzlicher Kost Maße: Durchschnittliche Länge: 20-40 cm. Maximal bis 70 cm und einem Gewicht um 7 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/59bc3565e6b52_.thumb.jpg.5e9c3472b7fe0cd5819dddab541aa5d5.jpg'
+    },
 
+    {
+        name: 'Weißer Amur',
+        text: `Normale Trophäe: 28 kg
+        Seltene Trophäe: 40 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Diese Graskarpfen-Art stammt ursprünglich aus China, wo sie in ruhigen, tiefen Flüssen und Seen der Ebenen vorkommt. Die natürliche Verbreitung ist heute kaum noch festzustellen, da der Weiße Amur bereits im 10. Jahrhundert in China künstlich besetzt wurde. In den 1960er-Jahren wurde er auch in vielen Gewässern in Europa und Amerika zur Bekämpfung von Wasserpflanzen ausgesetzt. Der Weiße Amur hat einen schlanken, langgestreckten, im Querschnitt fast runden Körper und einen relativ breiten Schwanzstiel. Der Rücken ist grau, die Flanken schimmern silbrig bis bronzefarben. Die Körperunterseite ist vom Unterkiefer bis zur Afterflosse weiß bis gelblich gefärbt. Das leicht unterständige Maul ist eher klein und spitz zulaufend, mit einer scharfkantigen Unterlippe. Die Schlundzähne sind zweireihig und deutlich eingekerbt. Ernährung: Der Weiße Amur bevorzugt stark verkrautete Biotope, wo er sich überwiegend von pflanzlicher Nahrung ernährt. Maße: Der Weiße Amur gehört zu den großwüchsigen Fischen und erreicht eine Maximal-Länge von über 1 m. Das Maximalgewicht liegt bei ca. 30 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_05/g_carp_m.thumb.png.21af0ea0ab26d064108c83cc57250ffd.png'
+    },
 
+    {
+        name: 'Klotzsaibling',
+        text: `Normale Trophäe: 3 kg
+        Seltene Trophäe: 4,5 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Klotzsaibling repräsentiert eine der beiden endemischen Saiblingsarten (Savelinus spec.), die im Ladoga- und Onega-Seengebiet vorkommen. Seine Schuppen sind heller als die des Ludoga-Saiblings. Man findet ihn insbesondere in großer Tiefe vor. Ernährung: Der Klotzsaibling ernährt sich von kleinen Fischen, Mollusken, Krebsen und Insekten. Maße: Das Durchschnittsgewicht eines ausgewachsenen Fisches beträgt 2 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_09/palia_kr.thumb.jpg.db21d930f15e2a7c82f57fd75a4eb450.jpg'
+    },
 
+    {
+        name: 'Europäische Äsche',
+        text: `Normale Trophäe: 3,2 kg
+        Seltene Trophäe: 5,5 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Europäische Äsche (Thymallus thymallus) ist ein Süßwasserfisch aus der Familie Salmonidae. Sie kommt von England und Wales über die (Mittel-) Gebirgsregionen Nord-, Mittel-, Ost- und Westeuropas bis ans Schwarze Meer vor. Wichtige Merkmale der Äsche sind die hohe Rückenflosse sowie auffallende, im Verhältnis zur Körpergröße große Rundschuppen. Durch Gewässerverschmutzung und -verbauten ist die Äsche immer mehr im Rückgang begriffen. Sie benötigt klares, kühles Wasser und wächst eher langsam. Kontrovers wird diskutiert, ob die Äschenbestände insbesondere durch den Fraßdruck des Kormorans in Europa zurückgegangen sind. Ernährung: Äschen leben von Insekten der Wasseroberfläche, aber auch von Würmern und Insektenlarven. Zusätzlich erbeuten sie gelegentlich kleine Fischchen. Maße: Der Das Gewicht einer ausgewachsenen Äsche beträgt etwa 500 bis 1500 g; die Länge liegt dann in der Regel zwischen 30 und 50 cm. Besonders große Exemplare können bis zu 3000 g schwer und bis zu 60 cm lang werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/a_grayling_m.thumb.png.b103551d7ecb956928657f4e3f6cb2c2.png'
+    },
 
+    {
+        name: 'Schwarzer Heilbutt',
+        text: `Normale Trophäe: 25 kg
+        Seltene Trophäe: 35 kg (Noch nicht bestätigt)`,
+        image:'https://rf4.info/img/fish/182.png'
+    },
 
+    {
+        name: 'Grönlandhai',
+        text: `Normale Trophäe: 600 kg (Noch nicht bestätigt)
+        Seltene Trophäe: 700 kg (Noch nicht bestätigt)`,
+        image:'https://rf4.info/img/fish/155.png'
+    },
+
+    {
+        name: 'Gründling',
+        text: `Normale Trophäe: 100 g
+        Seltene Trophäe: 160 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Gründling (Gobio gobio) ist Fisch aus der Familie der Karpfenartigen (Cyprinidae). In West- und Nordeuropa ist er weit verbreitet. Er lebt in schnell fließenden, aber auch stehenden Gewässern mit kiesigem oder sandigem Grund. Der Gründling hat einen rundlichen Körper, einen relativ großen Kopf, ein unterständiges Maul und ein Paar tastempfindliche Barteln. Er hält sich stets auf dem Gewässergrund auf (Name!). Auch als Köderfisch ist der Gründling sehr beliebt. Ernährung: Der Gründling ernährt sich von Insektenlarven, Weich- und Krebstieren. Maße: Gründlinge werden selten über 15 cm lang.`,
+        image:'https://rf4.info/img/fish/53.png'
+    },
+
+    {
+        name: 'Schellfisch',
+        text: `Normale Trophäe: 11 kg
+        Seltene Trophäe: 13 kg`,
+        image:'https://rf4game.com/forum/uploads/monthly_2023_04/image.thumb.png.c5d76ccb8b1ee3c28105e78035991a6d.png'
+    },
+
+    {
+        name: 'Kleine Bodenrenke',
+        text: `Normale Trophäe: 4,5 kg
+        Seltene Trophäe: 6 kg
+        
+        Kleine Bodenrenken (Coregonus pidshian) leben im Jenissei-Fluss und seinen Nebenflüssen. Sie haben einen hohen Körper mit einem gut sichtbaren Buckel. Die Oberseite des Kopfes und der Rücken sind dunkelgrau, die Seiten sind silbern. Dieser Fisch ist gut auf Posen- und Spinnmontagen zu fangen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/sig_p.thumb.jpg.e3bab229a76e5de9324d6dbfdbe2f73c.jpg'
+    },
+
+    {
+        name: 'Isländische Kammmuschel',
+        text: `Normale Trophäe: 350 g
+        Seltene Trophäe: 450 g`,
+        image:'https://rf4.info/img/fish/159.png'
+    },
+
+    {
+        name: 'Aland',
+        text: `Normale Trophäe: 4 kg
+        Seltene Trophäe: 6,6 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Aland (Leuciscus idus) ist eine Fischart aus der Familie der Karpfenfische (Cyprinidae). Er ist in fast ganz Mittel- und Osteuropa nördlich der Alpen und auf dem Balkan heimisch. Alande haben einen gestreckten und seitlich abgeflachten Körper sowie ein endständiges Maul und ähneln dem Döbel und dem Rotauge. Der Aland hat aber kleinere Schuppen und eine nach innen gebogene Afterflosse. Der Aland gehört zu den charakteristischen Leitfischarten im Unterlauf von langsam fließenden Tieflandflüssen und -strömen wie Rhein, Weser, Elbe, Oder und Weichsel, die in Nord- und Ostsee münden. Er ist nicht nur im Süßwasser, sondern auch im Brackwasser, beispielsweise in der Ostsee heimisch. Größere Exemplare halten sich, ähnlich wie Döbel, in kleineren Fließgewässern bevorzugt unter überhängenden Bäumen oder Sträuchern auf und warten dort auf vorbeitreibende Nahrung. Ernährung: Der Aland ist ein Allesfresser. Jungfische ernähren sich von Zooplankton, später von Insektenlarven, Schnecken, Muscheln und kleineren Fischen Maße: Alande erreichen im Durchschnitt eine Länge von 30 bis 50 cm; dabei bringen sie ca. 3 kg auf die Waage. Maximal sind Gewichte bis 7-8 kg bekannt.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/s.orfe_m.thumb.png.919a45484cab354234d2bc99f2aec214.png'
+    },
+
+    {
+        name: 'Kaluga Hausen',
+        text: `Normale Trophäe: 500 kg 
+        Seltene Trophäe: 1000 kg 
+        
+        Der Kaluga gehört zur Familie der Störe. Sein Hauptlebensraum ist das Flussgebiet des Amur. Er kommt auch in der Küstenzone des Ochotskischen Meeres und in einigen Flüssen vor, die in dieses Meer münden. Dieser Fisch hat einen dicken, zylindrischen Körper. Die Hauptfarbe des Körpers ist grünlich-grau, während der Bauch hell gefärbt ist. Die maximale bestätigte Länge eines erwachsenen Tieres beträgt 5,6 m. Der Kaluga-Hausen ist ein Raubfisch; er ernährt sich von kleinen wirbellosen Tieren und Fischen. Er kann mit verschiedenen Arten von Posen-, Grund- oder Spinngeräten gefangen werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_05/kaluga.thumb.jpg.b7c1b70e116a832613a3eb7341d057d9.jpg'
+    },
+
+    {
+        name: 'Kamtschatka Regenbogenforelle',
+        text: `Normale Trophäe: 8 kg 
+        Seltene Trophäe: 10 kg 
+        
+        Die Kamtschatka-Regenbogenforelle (Oncorhynchus mykiss), ist ein Mitglied der Lachsfamilie, im Russischen wird Sie auch Kamtschatka-Lachs genannt. Sie kommt in den Gewässern von Kamtschatka und in den Flüssen der Festlandsküste des Ochotskischen Meeres vor. Der Rücken der Forelle hat einen grünlichen Farbton, während der Bauch meist silbrig-weiß ist. Der Körper und die Flossen haben kleine dunkle Flecken. Die Kamtschatka-Regenbogenforelle wird bevorzugt mit Schwimmer oder mit Kunstködern gefangen. Das Angeln mit lebenden Ködern bringt ebenfalls gute Ergebnisse.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_05/mikija.thumb.jpg.c2597da3d08c87645b17e8e074697f9c.jpg'
+    },
+
+    {
+        name: 'Kaspischer Schwarzrücken Hering',
+        text: `Normale Trophäe: 1,2 kg 
+        Seltene Trophäe: 1,7 kg 
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Kaspische Schwarzrücken-Hering (Alosa kessleri) ist ein anadromer Fisch. Sein Habitat ist das Kaspische Meeresbecken. Er hat einen länglichen Körper, einen Bauch mit ausgeprägtem Kiel von den Kiemen bis zum Beginn der Afterflosse, und einen ziemlich großen, breiten Kopf mit gut entwickelten Zähnen. Der obere Teil des Kopfes und die Brustflossen sind dunkel. Ernährung: Die Nahrung des Kaspischen Schwarzrückens besteht aus Krebstieren, Insektenlarven sowie Jungfischen. Maße: Der Fisch kann eine Länge von bis zu 50 cm und ein Gewicht bis zu 2 kg erreichen.`,
+        image:'https://rf4.info/img/fish/44.png'
+    },
+
+    {
+        name: 'Seesaibling Kuorsky',
+        text: `Normale Trophäe: 22 kg 
+        Seltene Trophäe: 30 kg 
+        
+        Beschreibung und natürliches Vorkommen: 
+        Beim Kuorsky-Seesaibling handelt es sich um eine endemische Form des Seesaiblings mit heller Körperfarbe. Die Population dieses Fisches wurde in den 50er-Jahren des letzten Jahrhunderts im Nordwesten Russlands in einem kleinen See namens „Kuory“ entdeckt. Wie auch der normale Seesaibling ist der Kuorsky ein Vertreter der Lachsartigen. Ernährung: Der Kuorsky-Seesaibling führt ein räuberisches Leben. Die Grundlage seiner Ernährung sind Krebstiere, Insektenlarven und Jungfische. Maße: Eine Besonderheit des Kuorsky-Seesaibling ist seine ungewöhnliche Länge. Er kann bis zu 1,5 m erreichen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_12/chartus_kuoriius_m.thumb.png.a22c521061653a1aa02bdb9bed2a358b.png'
+    },
+
+    {
+        name: 'Kuori Felchen',
+        text: `Normale Trophäe: 3,5 kg 
+        Seltene Trophäe: 5 kg 
+        
+        Das Kuori Felchen ist eine endemische Form der gemeinen Felchen und ist heimisch im Kuori-See. Das Felchen hat einen länglich geformten Körper, mit einer recht breiten Stirn und kleinen Augen. Wenn sie älter werden, nimmt das Schuppenkleid eine grünliche Färbung an. Am erfolgreichsten wird das Kuori Felchen mit Posen und Spinnfischausrüstung gefangen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_10/sig_kuor.thumb.jpg.1c019af252bde57a7e77bee40c7ef06d.jpg'
+    },
+
+    {
+        name: 'Ladogasee Felchen',
+        text: `Normale Trophäe: 3 kg 
+        Seltene Trophäe: 4 kg 
+        
+        Das Ladogasee-Felchen ist eine der vier endemischen Formen der Ladoga-Felchen. Es hat einen großen länglichen Körper. Die Oberseite seines Kopfes und Rückens sind dunkelgrau, seine Seiten sind silbrig. Der Unterkiefer des Maules ist kurz. Spinning Rigs eignen sich am besten, um diesen Fisch zu fangen. Es können aber auch lebende Köder verwendet werden.`,
+        image:'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frf4game.de%2Fforum%2Fuploads%2Fmonthly_2021_12%2Fsig_o_l_m.thumb.jpg.83c0e142d072240d5ba18471cda72fc7.jpg&f=1&nofb=1&ipt=f2de8a6d278d6f015723d09ec6bcc4911fe809365917a09e3b9edb3730a2c2ea&ipo=images'
+    },
+
+    {
+        name: 'Ladoga Lachs',
+        text: `Normale Trophäe: 14 kg 
+        Seltene Trophäe: 20 kg 
+        
+        Der Ladoga-Lachs ähnelt im Aussehen dem Atlantischen Lachs, aber im Gegensatz zu letzterem hat er mehr schwarze Flecken auf seinem Körper. Ladoga-Lachse können mit den meisten Grundmontagen sowie einigen Arten von Posen- und Spinning-Rigs gefangen werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_12/l_salmon.thumb.jpg.d9ac596f2a0a8b5d602002640593ccd4.jpg'
+    },
+
+    {
+        name: 'Ladoga Stör',
+        text: `Normale Trophäe: 60 kg 
+        Seltene Trophäe: 85 kg 
+        
+        Der Ladoga-Stör ist eine endemische Form des Atlantischen Störs. Es ist ein großer Fisch mit einer langen, schlanken, leicht erhöhten Schnauze. Er hat eine bläulich-olivfarbene Körperfärbung und einen weißen Bauch. Dieser Fisch kann erfolgreich mit den meisten Arten von Grund- und Spinning-Rigs gefangen werden.`,
+        image:'https://rf4.info/img/fish/126.png'
+    },
+
+    {
+        name: 'See Elritze',
+        text: `Normale Trophäe: 100 g 
+        Seltene Trophäe: 160 g 
+        
+        Die See-Elritze (Phynchocypris percnurus) bewohnt Süßwasserzonen des Arktischen Ozeans und des Ochotskischen Meeres. Der hohe, dicke Körper der Elritze ist dicht mit Schuppen bedeckt. Die Farbe des Rückens ist grünlich-grau, die Seiten sind golden mit einem grünlichen Schimmer. Diese Elritze wird hauptsächlich mit der Posenangel gefangen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/l_minnow.thumb.jpg.122c473f9de7089c728b8c1dd6bb1920.jpg'
+    },
+
+    {
+        name: 'Seeforelle',
+        text: `Normale Trophäe: 10 kg 
+        Seltene Trophäe: 15 kg 
+        
+        Beschreibung und natürliches Vorkommen: 
+        Als Seeforelle wird eine in tiefen sauerstoffreichen Seen lebende Form der Bachforelle (Salmo trutta) bezeichnet. Bei Seeforellen handelt es sich um großwüchsige Populationen, die untereinander nicht näher miteinander verwandt sind als mit den Bachforellen der Fließgewässer, die ihre Wohngewässer umgeben. Ihr Körper ist langgestreckt, seitlich leicht abgeflacht und hat eine je nach Gewässer etwas unterschiedliche Färbung. Immer sind die meist sehr hellen Flanken mit unregelmäßigen schwärzlichen, gelegentlich auch braunen oder rötlichen Punkten oder Ringen gemustert. Ältere Seeforellen sind hochrückiger als junge. Seeforellen sind Wanderfische, die zur Fortpflanzung in die Zuflüsse ihrer Wohngewässer aufsteigen und nur gelegentlich in den Seen selbst laichen. Das maximale Alter liegt bei etwa 10 Jahren. Wegen des großen Anteils an Krebstieren in der Ernährung ist das Fleisch der Seeforelle rosa, und sie wird im Handel (wie auch andere Salmoniden mit rötlichem Fleisch) als "Lachsforelle" angeboten. Ernährung: Seeforellen ernähren sich von Kleintieren, Krebsen und später auch von Fischen. Maße: Seeforellen erreichen durchschnittlich von 40 bis 80 cm Länge. Im Ladogasee (dem größten See Europas, der in Nordwestrussland liegt) erreichen sie ein besonders hohes Gewicht von 8-10 kg.`,
+        image:'https://rf4.info/img/fish/52.png'
+    },
+
+    {
+        name: 'Lederkarpfen',
+        text: `Normale Trophäe: 30 kg 
+        Seltene Trophäe: 45 kg 
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Lederkarpfen (auch Nacktkarpfen genannt) ist eine weitere Zuchtform des Karpfens (Cyprinus carpio) aus der weitverbreiteten Familie der Karpfenfische (Cyprinidae). Ihm fehlen die Schuppen vollständig. Lederkarpfen sind im Süßwasser lebende Friedfische, die stets zwei lange und zwei kurze Barteln sowie ein vorstülpbares Maul besitzen. Karpfen bevorzugen warme stehende oder langsam fließende Gewässer mit einem Schlamm- oder Sandgrund. Außerdem sollten viele Pflanzen vorhanden sein, damit für den notwendigen Sauerstoff gesorgt ist. An windigen Tagen sollte man den Fisch dort suchen, wo Wellen ans Ufer schlagen. In der warmen Jahreszeit sind der frühe Morgen oder der späte Abend die aussichtsreichsten Fangzeiten. Wenn die Temperaturen zurückgehen verschiebt sich die Beißzeit - wie bei vielen Fischen - zum Mittag hin. Die bevorzugte Aufenthaltsorte des Lederkarpfens sind, wie bei allen Karpfen, Seerosenfelder, Schilfkanten und Landzungen. Ernährung: Die Nahrung von Lederkarpfen besteht aus am Boden lebenden Kleinlebewesen. Maße: Im Vergleich zu den anderen Karpfenrassen haben Lederkarpfen durchschnittlich ein deutlich kleineres Gewicht. Dies liegt an der verringerten Anzahl von Blutzellen in ihrem Körper. Im Schnitt bringt dieser Karpfen 10-20 kg auf die Waage. Es gibt aber auch Exemplare mit bis zu 35 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_10/n_carp_m.thumb.png.5452eaf5927272b67ae954b848d5ab1f.png'
+    },
+
+    {
+        name: 'Chereshnev Saibling',
+        text: `Normale Trophäe: 1,6 kg 
+        Seltene Trophäe: 2,2 kg 
+        
+        Der Chereshnev (Salvelinus Levanidovi) ist eine endemische asiatische Saiblingsart. Er bewohnt die nordöstliche Küste des Ochotskischen Meeres und die Flussbecken von Yama, Takhtoyama und Penzhin. Der Fisch hat einen niedrigen, stromlinienförmigen Körperbau. Kopf und Maul sind überproportional groß. Während des Laichens färben sich die Seiten des Fisches olivgelb, weswegen die Einheimischen diesen Saibling "Zitronengras" nennen. Er bevorzugt Flüsse mit schneller Strömung und kiesig-sandigem Substrat. Er wird hauptsächlich mit Kunstködern oder lebenden Ködern gefangen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_05/golets_lev.thumb.jpg.0e9d3e097aa66259b260362a1681feb2.jpg'
+    },
+
+    {
+        name: 'Albino-Zeilkarpfen',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 40 kg 
+        
+        Wie andere Albino-Fische hat auch diese Form des Zeilkarpfens eine helle Körperfärbung, die durch eine fehlende Pigmentierung von Schuppen und Haut verursacht wird. Außerdem sind die Augen von Albinokarpfen empfindlicher gegen Sonnenlicht, weshalb die Tiere schattige Bereiche im Gewässer bevorzugen. Ansonsten unterscheiden sich diese Fische nicht von gewöhnlichen Karpfen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/l_carp_albino.thumb.jpg.1fa554e1631f48d91d934e979c581a58.jpg'
+    },
+
+    {
+        name: 'Albino-Zeilkarpfen',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 40 kg 
+        
+        Wie andere Albino-Fische hat auch diese Form des Zeilkarpfens eine helle Körperfärbung, die durch eine fehlende Pigmentierung von Schuppen und Haut verursacht wird. Außerdem sind die Augen von Albinokarpfen empfindlicher gegen Sonnenlicht, weshalb die Tiere schattige Bereiche im Gewässer bevorzugen. Ansonsten unterscheiden sich diese Fische nicht von gewöhnlichen Karpfen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/l_carp_albino.thumb.jpg.1fa554e1631f48d91d934e979c581a58.jpg'
+    },
+
+    {
+        name: 'Zeilkarpfen',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 40 kg 
+        
+        Die lineare Schuppenanordnung gibt diesem Karpfen seinen Namen. Er ist dem Lederkarpfen und Spiegelkarpfen sehr ähnlich, aber im Gegensatz zu diesen sind beim Zeilkarpfen die Schuppen entlang der Seitenlinie aufgereiht. Zeilkarpfen weisen keine hohen Bestände auf und sind nicht in allen Karpfen-Gewässern vertreten. Daher genießen sie einen höheren Stellenwert bei Anglern.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/l_carp_ghost.thumb.jpg.4b27a1ed73a65b1fe5f6f33671bafa46.jpg'
+    },
+
+    {
+        name: 'Geister Zeilkarpfen',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 40 kg 
+        
+        Zeilkarpfen - Die Geister-Variante ist eine Mischung aus Zeilkarpfen und Koi-Karpfen. Das Ergebnis dieser Kreuzung ist ein ungewöhnlich farbenfroher Körper. Diese seltenen Karpfen werden von vielen Fischern geschätzt. Es wird angenommen, dass sie schlauer sind als ihre üblichen Verwandten, was bedeutet, dass sie auch viel schwerer zu fangen sind.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/l_carp_ghost.thumb.jpg.4b27a1ed73a65b1fe5f6f33671bafa46.jpg'
+    },
+
+    {
+        name: 'Schlammpeitzger',
+        text: `Normale Trophäe: 200 g 
+        Seltene Trophäe: 250 g 
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Schlammpeitzger (Misgurnus fossilis) kommt in Gewässern des europäischen Kontinents vor, kann aber auch im Süden und Osten Asiens gefunden werden. Schlammpeitzger bevorzugen ruhige Flüsse und schlammige, schattige Seen. Die Hauptaktivität dieses Fisches ist meistens nachts. Die Fische haben einen langen, schlangenförmigen, mit kleinen Schuppen bedeckten Körper. Die runden Flossen sind mit kleinen braunen Flecken bedeckt. Die Färbung des Fisches hängt von seiner Umgebung ab. Ernährung: Der Schlammpeitzger ernährt sich von Krebstieren, Insektenlarven und dem Laich anderer Fische. Maße: Die durchschnittliche Länge eines erwachsenen Fisches beträgt 15-20 cm. Seltene Exemplare können eine Länge von 35 cm erreichen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_12/vjun.thumb.png.bf7d854256e0209f680ee4255c52bae5.png'
+    },
+
+    {
+        name: 'Langnasen-Saugdöbel',
+        text: `Normale Trophäe: 1,8 kg 
+        Seltene Trophäe: 2,2 kg 
+        
+        Der Langnasen-Saugdöbel (lat. Catostomus catostomus), kommt häufig in Gewässern Nordamerikas und Nordost-Sibiriens vor. Der Körper des Fisches hat eine längliche Form, der Rücken ist grau-oliv und der Bauch ist weiß. Während der Laichzeit, erscheint ein hellrosa gefärbter Längsstreifen entlang des gesamten Körpers an den Seiten des Langnasen-Saugdöbel. Zum Fangen eignen sich Posen- oder Spinnfischmontagen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_05/chukuchan.thumb.jpg.85d51739c9f7814754053cb552f5a69b.jpg'
+    },
+
+    {
+        name: 'Ludoga-Renke',
+        text: `Normale Trophäe: 3 kg 
+        Seltene Trophäe: 7 kg 
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Ludoga-Renke ist eine der Renken-Arten (Coregonus spec.), die in den kalten Gewässern des Ladoga -und Oneg-Seengebiets leben. Das Wort "Ludoga" kommt von "lud", was soviel bedeutet wie ein steiniger Grund unter Wasser. Dieser Fisch bevorzugt entsprechende Gebiete, daher sein Name. Auffällig ist sein kleiner Kopf, der nach vorne spitz zuläuft. Der vorstehende Oberkiefer bildet eine konvexe Nase. Die Augen sind silbrig. Ernährung: Ludoga-Renken ernähren sich von kleinen Krebsen, Mollusken und Fischrogen. Maße: Die Körperlänge beträgt zwischen 30-50 cm, das Durchschnittsgewicht 800-900 g.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_09/sig_ludoga.thumb.jpg.a38ee615b5bd7df8fde1506b33f8cfd4.jpg'
+    },
+
+    {
+        name: 'Albino-Spiegelkarpfen',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 40 kg 
+        
+        Wie andere Albino-Fische hat auch diese Form des Spiegelkarpfens eine helle Körperfärbung, die durch eine fehlende Pigmentierung von Schuppen und Haut verursacht wird. Außerdem sind die Augen von Albinokarpfen empfindlicher gegen Sonnenlicht, weshalb sie schattige Bereiche im Gewässer bevorzugen. Ansonsten unterscheiden sich diese Fische nicht von gewöhnlichen Karpfen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/m_carp_albino.thumb.jpg.0c0c9d835ee62d2030682b7697b6d650.jpg'
+    },
+
+    {
+        name: 'Spiegelkarpfen',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 40 kg 
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Spiegelkarpfen ist eine Zuchtvariante der ursprünglichen Wild-Form des Karpfens. Er hat einen langgestreckten, kegelförmigen Kopf mit kleinen Augen und ein zu einem Rüssel ausstülpbares Maul. Sein Körper ist unvollständig beschuppt; die verbliebenen Schuppen sind groß und kräftig. Entlang der Seitenlinie weist der Körper Glanz auf. Spiegelkarpfen sind im Süßwasser Europas und Asiens weit verbreitet. Karpfen können sauerstoffarmes Wasser tolerieren, so dass Seen mit warmem, stehendem Wasser und mit leicht verschlammten Böden hervorragende Biotope darstellen. Bei Wärme hält sich der Karpfen gern in flachen Gewässer-Zonen auf, wogegen er bei kühlerem Wetter tiefere Stellen bevorzugt. Besonders beliebte Lebensräume sind Schilfkanten, Seerosenfelder und verkrautete Gewässerabschnitte entlang von Inseln, Landzungen und versunkenen Bäumen. Ernährung: Die Nahrung von Spiegelkarpfen ist vielseitig: Hauptsächlich sind es am Boden lebende Kleinlebewesen wie Insektenlarven, Schnecken und Würmer, aber auch Plankton und pflanzliche Kost. Maße: Spiegelkarpfen wachsen sehr schnell und können 30 kg oder mehr erreichen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/m_carp_m.thumb.png.997aeb372a6f923393996b78925b5f0d.png'
+    },
+
+    {
+        name: 'Geister-Spiegelkarpfen',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 40 kg 
+        
+        Die Geister-Variante des Spiegelkarpfens ist eine Mischung aus Spiegelkarpfen und Koi-Karpfen. Das Ergebnis dieser Kreuzung ist ein ungewöhnlich farbenfroher Körper. Diese seltenen Karpfen werden von vielen Fischern geschätzt. Es wird angenommen, dass sie schlauer sind als ihre üblichen Verwandten, was bedeutet, dass sie auch viel schwerer zu fangen sind.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/m_carp_ghost.thumb.jpg.7f10a4dbf4e4924886f01d70190760b0.jpg'
+    },
+
+    {
+        name: 'Gemeine Miesmuschel',
+        text: `Normale Trophäe: 130 g 
+        Seltene Trophäe: 150 g`,
+        image:'https://rf4.info/img/fish/174.png'
+    },
+
+    {
+        name: 'Nase ',
+        text: `Normale Trophäe: 800 g 
+        Seltene Trophäe: 1300 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Nase (Chondrostoma nasus) ist ein Fisch aus der Familie der Karpfenfische (Cyprinidae). Sie ist in Europa weit verbreitet: Sie kommt in Mitteleuropa nördlich der Alpen bis nach Osteuropa vor, fehlt allerdings im Einzugsgebiet der Elbe. Besonders häufig findet man die Nase im Rhein- und Donaugebiet. Sie ist ein geselliger, oft in großen Schwärmen lebender, strömungsliebender Fisch. Die Nase hält sich die meiste Zeit in Grundnähe auf. Mit ihren scharfkantigen Hornkiefern schabt und zupft sie dort Algenaufwuchs. Nasen haben einen kompakt erscheinenden, länglichen Körperbau und einen relativ kleinen Kopf. Die Brust-, Bauch-, und Afterflossen, manchmal auch die untere Hälfte der Schwanzflossen erwachsener Nasen sind mehr oder weniger kräftig grau/orange gefärbt. Charakteristisch ist das stark unterständige Maul mit scharfkantigen und verhornten Kanten. Ernährung: Von der Nase werden Algen, aber auch Würmer, Insektenlarven sowie Laich anderer Fische verzehrt. Maße: Die Durchschnittsgröße von Nasen liegt zwischen 25 - 30 cm bei einem Gewicht von 0,3 - 0,4 kg. Großwüchsige Tiere können bis zu 40 cm lang werden und 1,5 kg wiegen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/c_nase_m.thumb.png.2a9eba479f00f217111fa82b38a47a14.png'
+    },
+
+    {
+        name: 'Neiva',
+        text: `Normale Trophäe: 1,4 kg 
+        Seltene Trophäe: 1,7 kg
+        
+        Der Neiva Saibling (lat. Salvelinus neiva) ist eine endemische Saiblingsart im Nordosten Russlands, die das Ueginsky See-Fluss-System an der Festlandsküste des Ochotskischen Meeres bewohnt. Normalerweise sind die Schuppen des Neiva silbrig, während der Laichzeit nehmen sie eine leuchtend gelbe oder rubinrote Farbe an. Zum Angeln auf Neiva können sowohl Posen als auch Spinnfisch Montagen verwendet werden.`,
+        image:'https://rf4game.com/forum/uploads/monthly_2021_05/neiva.thumb.jpg.6264ca06b16076206b939a5126c6e985.jpg'
+    },
+
+    {
+        name: 'Nelma',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 30 kg
+        
+        Der Sibirische Weißlachs (Stenodus leucichthys nelma), auch Nelma genannt, lebt im Becken des Arktischen Ozeans. Er ist dort der größte Weißfisch-Vertreter. Sein länglicher, spindelförmiger Körper ist mit silberfarbenen Schuppen bedeckt. Zum Fangen der Sibirischen Weißlachse eignen sich Posen- und Spinnmontagen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/nelma.thumb.jpg.48174096855d076b382f958d1c16f379.jpg'
+    },
+
+    {
+        name: 'Neunstachliger Stichling',
+        text: `Normale Trophäe: 70 g 
+        Seltene Trophäe: 90 g
+        
+        Dieser Stichling mit neun Stacheln lebt in den Becken des Arktischen Ozeans, der Ostsee und des Weißen Meeres, den Küstengewässern von Westkamtschatka, Sachalin und den Kurilen. Der Neunstachlige Stichling hat einen schuppenfreien, länglichen Körper. Die Farbe der Rückseite des Fisches ist olivgrün, der Bauch ist hellgrün, die Unterseite des Kopfes ist rötlich. Schwarze Flecken säumen die Flanken. Dieser Fisch wird hauptsächlich mit Posen-Rigs gefangen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_05/stickleback_ninesp.thumb.jpg.9829503062fd64998343e23e9a5ddcd1.jpg'
+    },
+
+    {
+        name: 'Blauer Seewolf',
+        text: `Normale Trophäe: 13 kg 
+        Seltene Trophäe: 17 kg`,
+        image:'https://rf4.info/img/fish/162.png'
+    },
+
+    {
+        name: 'Gotteslachs',
+        text: `Normale Trophäe: 120 kg 
+        Seltene Trophäe: 150 kg`,
+        image:'https://rf4game.com/forum/uploads/monthly_2023_04/image.thumb.png.e83480891bec5942f3d49eda27791327.png'
+    },
+
+    {
+        name: 'Auster',
+        text: `Normale Trophäe: 300 g 
+        Seltene Trophäe: 380 g`,
+        image:'https://rf4.info/img/fish/193.png'
+    },
+
+    {
+        name: 'Peledmaräne',
+        text: `Normale Trophäe: 3 kg 
+        Seltene Trophäe: 4 kg
+        
+        Die Peledmaräne ( Coregonus peled) ist ein Süßwasserfisch aus der Familie der Weißfische. Er bewohnt die Flüsse, die in den Arktischen Ozean münden. Er hat einen hohen, seitlich zusammengedrückten Körpers. Seine Farbe ist silbrig mit dunkelgrauem Rücken. Am Kopf und der Rückenflosse befinden sich kleine schwarze Punkte. Der effektivste Weg, Pelads zu fangen, ist der Einsatz von Posenangeln.`,
+        image:'https://rf4.info/img/fish/83.png'
+    },
+
+    {
+        name: 'Persischer Stör',
+        text: `Normale Trophäe: 100 kg 
+        Seltene Trophäe: 150 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Persische Stör (Acipenser persicus) kommt in den Becken des Kaspischen Meeres und des Schwarzen Meeres vor. Er hat eine massivere Schnauze als der Russische Stör, die leicht nach unten versetzt ist. Die Körper-Oberseite ist grau-blau, der Bauch ist weiß. Ernährung: Die Hauptnahrung der Persischen Störe sind Krebstiere und Fische. Maße: Ausgewachsene Exemplare erreichen eine Länge von 2 m.`,
+        image:'https://rf4.info/img/fish/152.png'
+    },
+
+    {
+        name: 'Hecht',
+        text: `Normale Trophäe: 12 kg 
+        Seltene Trophäe: 20 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Hechte stellen eine weit verbreitete Gattung spindelförmiger Raubfische mit insgesamt sieben Arten dar. Der Europäische Hecht (Esox lucius) besitzt einen lang gestreckten, walzenförmigen und seitlich nur mäßig abgeflachten Körper und einen relativ langen Kopf mit einem entenschnabelähnlichen, oberständigen Maul. Die Rücken- und Afterflosse sind weit nach hinten verlagert und ermöglichen dadurch blitzartige Beschleunigungen und Wendemanöver. Die Färbung variiert je nach Lebensraum: Der Rücken ist meist grün-bräunlich, die Flanken werden bis zum weißen Bauch hin immer heller. Die Kiefer sind mit umklappbaren Fang- und Hechelzähnen bewehrt, die nach hinten gebogen sind. Ernährung: Hechte ernähren sich von anderen Fischen, Fröschen, Molchen, Mäusen, Ratten und jungen Enten, gelegentlich sogar Krebsen und scheuen auch nicht vor ihren eigenen Artgenossen zurück. Maße: Europäische Hechte werden 40 cm bis maximal 1,80 Meter lang, bei einem Maximal-Gewicht von 35 kg. Durchschnittlich erreichen sie 5-8 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_05/n.pike_m.thumb.png.031c64a463057c6504af4dbcf7a9feae.png'
+    },
+
+    {
+        name: 'Buckellachs',
+        text: `Normale Trophäe: 3 kg 
+        Seltene Trophäe: 4 kg
+        
+        In Russland ist der Lebensraum des Buckellachses (Oncorhynchus gorbuscha) das Becken des Arktischen Ozeans. Wenn der Buckellachs zum Laichen in die Flüsse aufsteigt, bekommt er ein Hochzeitskleid. Sein Körper wird flacher und die Körperfarbe wechselt ins Braune. Kopf und Flossen werden schwarz. Die Kiefer verformen sich und entwickeln große Zähne. Zum Angeln des Buckellachses eignen sich Posen- oder Spinnmontagen am besten.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/gorbusha.thumb.jpg.95746b80766684fc54054b9c8762f613.jpg'
+    },
+
+    {
+        name: 'Steinköhler',
+        text: `Normale Trophäe: 11 kg 
+        Seltene Trophäe: 14 kg
+        
+        Der Steinköhler auch bekannt als Pollok kommt im nordöstlichen Atlantik von Skandinavien bis Marokko vor, als auch im östlichen Mittelmeer und in der Nordess. Er zieht es vor, in einer Tiefe von 250m zu bleiben. Manchmnal in die unteren Schichten abzusinken und bevorzugt Felsoerflächen. Jungtiere versammeln sich in Schwärmen. Der Körpfer hat eine Spidnelform, der Kopf und der obere Rücken sind dunkelgrau mit einem olivfarbenen Glanz. Die Flanken sind hellbräunlich und der Bauch ist hellsilbern. Die Antennen am unterkiefer fehlen, die Seitenlinee an den Brustflossen hat eine Krümmung. Große Exemplare können 130cm erreichen mit einem Körpergewicht von etwa 20kg. Die Durchschnittliche Länge beträgt 70 - 75 cm. `,
+        image:'https://rf4game.de/forum/uploads/monthly_2023_04/image.thumb.png.f1f3d358a53c497a5994a4f88fe7a654.png'
+    },
+
+    {
+        name: 'Donauhering',
+        text: `Normale Trophäe: 650 g 
+        Seltene Trophäe: 900 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Donauhering (Alosa immaculata) lebt im Schwarzmeer- und Azow-Becken.Er hat einen seitlich abgeflachten Körper mit grünlich-blauem Rücken und silbrig-weißer Flanke. Ernährung: Dieser Fisch ernährt sich hauptsächlich von kleinen Krebsen und Larven. Er wird meist mit Posenmontagen oder der Grundangel gefangen. Maße: Der Donauhering kann bis zu 53 cm lang werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_02/cha_herring.thumb.jpg.a3bc5c6be1dfda860d24d95fac5ed90b.jpg'
+    },
+
+    {
+        name: 'Heringshai',
+        text: `Normale Trophäe: 150 kg 
+        Seltene Trophäe: 200 kg
+        
+        Lamna nasus range extends from the western Atlantic to the coast of Argentina. In the eastern Atlantic it can be found in both Iceland and South Africa. It is most commonly found near the water's surface but can descend to depths of 500 meters. The Porbeagle has a characteristic appearance of a typical shark. The upper part of its spindle-shaped body has a bluish-gray color, while the belly is light, almost white. The Porbeagle has large triangular teeth. Individuals of this shark species can reach just over 4 m in length with a weight of about 250 kg. `,
+        image:'https://rf4game.com/forum/uploads/monthly_2023_04/image.thumb.png.914a0ccf6d235aa7ce804ca59c6fd7e4.png'
+    },
+
+    {
+        name: 'Kürbiskernbarsch',
+        text: `Normale Trophäe: 450 g 
+        Seltene Trophäe: 600 g
+        
+        The Pumpkinseed (Lepomis gibbosus) is a Sunfish that was introduced to Europe from North America. In its natural environment, it can be found in many European water bodies, including rivers flowing into the Black Sea. 
+        The sunny perch has a high, flattened body and can reach 40 cm in length. Its bright color can vary from silver-green to red-orange. 
+        This fish prefers shallow shoreline areas. You can catch it using both, the float and the spinning.  `,
+        image:'https://rf4game.com/forum/uploads/monthly_2020_02/pumps_sunfish.thumb.jpg.68243dad75e72d20482054e271c4865c.jpg'
+    },
+
+    {
+        name: 'Regenbogenforelle',
+        text: `Normale Trophäe: 10 kg 
+        Seltene Trophäe: 13 kg
+        
+        Die ursprüngliche Heimat der Regenbogenforelle (Oncorhynchus mykiss) sind die Gewässer der Pazifikküste Nordamerikas. Später wurde diese bekannte Forelle aber auch in viele andere Länder der Welt eingeführt. Sie unterscheidet sich von der Bachforelle dadurch, dass sie einen längeren Körper, eine eingebuchtete Schwanzflosse und einen breiten schillernden Streifen an den Flanken hat. Man fängt sie hauptsächlich auf Schwimmer und beim Spinnfischen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_10/riv_rb_trout.thumb.jpg.1294f2832154fc80039a4dbe3c8c444b.jpg'
+    },
+
+    {
+        name: 'Ludoga-Saibling',
+        text: `Normale Trophäe: 5 kg 
+        Seltene Trophäe: 7,5 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Ludoga-Saibling repräsentiert eine der beiden endemischen Saiblingsarten (Savelinus spec.), die im Ladoga- und Onega-Seengebiet vorkommen. Seine Schuppen sind dunkler als die des Klotzsaiblings. Man findet ihn in flacheren Bereichen des Gewässers. Ernährung: Der Ludoga-Saibling ernährt sich von kleinen Fischen, Mollusken, Krebsen, Wasser- und Fluginsekten. Maße: Das Durchschnittsgewicht eines ausgewachsenen Fisches beträgt 5 bis 7 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_09/palia_lud.thumb.jpg.1e1020abcd9448ca497b65bd9943c7c3.jpg'
+    },
+
+    {
+        name: 'Goldkarpfen',
+        text: `Normale Trophäe: 20 kg 
+        Seltene Trophäe: 30 kg
+        
+        Der Goldkarpfen wurde in Ungarn gezüchtet und ist eine Hybridform aus ungarischem Schuppenkarpfen und Koi-Karpfen. Als Folge dieser Kreuzung besitzt der Karpfen einen schlankeren Körper als andere Karpfen sowie rötlich gefärbte Schuppen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/carp_red.thumb.jpg.4f6dc4f4c29ce3eeac7520c7cb895f39.jpg'
+    },
+
+    {
+        name: 'Ripus-Maräne',
+        text: `Normale Trophäe: 1,2 kg 
+        Seltene Trophäe: 1,7 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Ripus-Maräne (Coregonus albula ladogensis) ist eine großwüchsige Unterart der kleinen Maräne (C. albula). Dieser Fisch kommt in großen Gewässern der Nordhalbkugel sowie im Ladoga- und Onega-Seengebiet vor. Ernährung: Die Ernährungsgrundlage der Ripus-Maräne sind Zooplankton und kleine Fische. Maße: Die durchschnittliche Länge beträgt etwa 20 cm bei einem Gewicht von 200-400 g. Große Exemplare können eine Länge von mehr als 40 cm und ein Körpergewicht bis zu 1,5 kg erreichen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_09/ripus.thumb.jpg.f1442587671639293ededc94c8cd8d6c.jpg'
+    },
+
+    {
+        name: 'Flussmuschel',
+        text: `Normale Trophäe: 190 g 
+        Seltene Trophäe: 280 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Flussmuscheln (Unio) stellen eine Gattung innerhalb der Familie der Unionidae dar. Sie kommt weit verbreitet in Fließ- und Stillgewässern in Europa, Nordafrika und dem Nahen Osten vor; eine Art auch in Ostasien. Wenn sich eine Flussmuschel am Grund fortbewegt, hinterlässt sie dort eine gezackte Bahn; deshalb ist es einfach, sie zu entdecken. Die Flussmuschel gehört zum Nahrungsspektrum fast aller Fischarten, da sie eine ausgezeichnete Quelle für reines Eiweiß ist. Als hervorragender Angelköder wird der Fuß der Flussmuschel verwendet. Idealerweise wird dieser in Kombination mit anderen Ködern verwendet („Köderkombination - Montage“). Dabei ist zu beachten, dass der andere Köder der Festigkeit Flussmuschelfleisches ähneln sollte. Wenn man zum Beispiel Flussmuschelfleisch mit einer Maikäferlarve kombiniert, ergibt sich ein ausgezeichneter Köder für kapitale Brachsen oder den Wels. Für den Fang einer kapitalen Schleie kombiniert man Flussmuschelfleisch mit einem Wurm oder einer Made. Ernährung: Flussmuscheln filtern Algen, Schwebeteilchen und kleines Plankton aus dem Wasser. Maße: Die Flussmuschel ist oval mit einem Umfang von 5-10 cm.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/freshwater_mussel_one.thumb.png.d69f1e17548b5bf8e3904ec92a5a79e9.png'
+    },
+
+    {
+        name: 'Grenadierfisch',
+        text: `Normale Trophäe: 3 kg 
+        Seltene Trophäe: 3,5 kg
+        
+        A commercial fish from the Cod family, found in the cold waters of the western, eastern and northern Atlantic Ocean. In the Barents Sea, it is found off the coast of Murmansk. It lives in deep waters (from 100 to 600 m or more), rarely rising in the middle layers of water. It inhabits the continental slopes.
+        Its body is broad and gray (with a darker back), narrowing towards the tail at the head. The mouth is lower with small teeth. The eyes are large and oval in shape. The body is covered with large and dense scales with stiff barbs pointing toward the tail. The tail fin is absent. The weight of commercial specimens ranges from 400 g to 1.5 kg with a body length of 40-60 cm. The maximum size is about 1 m with a weight of about 5 kg.`,
+        image:'https://rf4.info/img/fish/169.png'
+    },
+
+    {
+        name: 'Prosopium',
+        text: `Normale Trophäe: 1,2 kg 
+        Seltene Trophäe: 1,6 kg
+        
+        Der Prosopium (Prosopium cylindraceum) ist über die rechten Nebenflüsse des Yenisei bis hin zum Kolyma-Fluss in sibirischen Gewässern weit verbreitet. Der Fisch hat einen runden Körper, der mit feinen Schuppen bedeckt ist. Der Rücken ist dunkelgrau, die Seiten silbrig mit einem goldenen Schimmer. Zum Fang mit der Angel ist eine Posen- oder Spinnmontage am besten geeignet.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/valyok.thumb.jpg.e620115454147634fe3ffd6d6b8e7737.jpg'
+    },
+
+    {
+        name: 'Rotfeder',
+        text: `Normale Trophäe: 1,5 kg 
+        Seltene Trophäe: 2 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Rotfeder (Scardinius erythrophthalmus) ist eine Fischart aus der Familie der Karpfenfische. Sie kommt in Europa vom Ural, Kaspischen Meer und Aralsee bis zu den Pyrenäen vor. Als genetischer Ursprungsort und Heimat der Rotfeder werden der Donauraum und Zentralasien angesehen. Rotfedern haben einen hochrückigen, seitlich abgeflachten Körper. Die Bauchkante ist zwischen Bauchflossen und After gekielt. Das Vorderende der Rückenflosse liegt deutlich hinter dem Bauchflossenansatz. Die Rotfeder wird oft mit dem Rotauge verwechselt. Die Rotfeder besitzt aber ein oberständiges Maul, das Rotauge ein endständiges. Ein weiteres Unterscheidungsmerkmal ist, dass die Rückenflosse der Rotfeder hinter den Bauchflossen beginnt, während beim Rotauge diese Flossen senkrecht übereinander angeordnet sind. Ernährung: Erwachsene Rotfedern ernähren sich hauptsächlich von Algen und Wasserpflanzen, und in geringerem Maße von Wirbellosen der Uferzone. Maße: Die Rotfeder hat durchschnittlich eine Länge von 16–19 cm und ein Gewicht von 100-400 g. Sehr große Exemplare werden über 50 cm lang und 2 kg schwer.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_01/Rotfeder.thumb.png.defa8e7df8d95e3d719ee5af464040ac.png'
+    },
+
+    {
+        name: 'Kaulbarsch',
+        text: `Normale Trophäe: 140 g 
+        Seltene Trophäe: 220 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Kaulbarsch (Gymnocephalus cernua) ist ein in mittel- und osteuropäischen Flüssen und der Ostsee verbreiteter Brack- und Süßwasserfisch aus der Familie der Echten Barsche (Percidae). Er kommt in Europa nördlich der Pyrenäen und der Alpen in Flüssen vor, die in die Nordsee, Ostsee, das Weiße Meer, die Barentssee, das Schwarze und das Kaspische Meer münden, außerdem in Seen im Einzugsgebiet dieser Flüsse. In West- und Mittelfrankreich wurde er ausgesetzt. Ferner lebt er in Sibirien in Flüssen, die ins nördliche Polarmeer münden (östlich bis Kolyma). Er fehlt auf dem Balkan südlich der Donau und in Westnorwegen, ist aber auch im Brackwasser der Ostsee zu Hause. Der Kaulbarsch vermeidet Sonnenlicht und Wärme. Deshalb ist er vorwiegend nachts und bei Regen aktiv. Er bewohnt in kleinen Gruppen nährstoffreiche, stehende oder langsam fließende Gewässer und hält sich dort vor allem über sandigem Grund auf. Der Körper des Kaulbarsches ist seitlich zusammengedrückt. Er hat einen relativ großen Kopf mit stumpfer Schnauze und eher kleinem Maul. Die großen Augen schimmern bei entsprechendem Lichteinfall blau bis violett. Der Körper ist mit Kammschuppen bedeckt. Der Kaulbarsch besitzt zwei zusammenhängende Rückenflossen, deren erste mit kräftigen Stachelstrahlen bedeckt ist. Beide Rückenflossen sind mit dunklen Flecken übersät, ebenso die Schwanzflosse. Ernährung: Die Nahrung des Kaulbarsches ist vielseitig – er verspeist Würmer, Kleinkrebse und Insektenlarven, aber auch Laich und Brut anderer Fischarten. Maße: Die Durchschnittsgröße des Kaulbarschs liegt bei etwa 8 - 10 cm, das Gewicht bei 15 - 25 g. Größere Exemplare können bei einem Gewicht von rund 200 g bis zu 20 cm lang werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/ruffe_m.thumb.png.f39ca8a3be71259e4aa5824d31d82f4f.png'
+    },
+
+    {
+        name: 'Russischer Stör',
+        text: `Normale Trophäe: 50 kg 
+        Seltene Trophäe: 100 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Heimat des Russischen Störs (Acipenser gueldenstaedtii) ist das Schwarze Meer, das Asowsche Meer und das Kaspische Meer einschließlich deren Zuflüsse. Der Stör hat einen langgestreckten und spindelförmiger Körperbau. Entlang des Körpers finden sich fünf Längsreihen gebuckelter Knochenplatten (Scuta). Die restliche Haut ist nackt und körnig. An der Unterseite der relativ kurzen und stumpfen Schnauze sitzen 4 nicht gefranste Barteln. Diese befinden sich näher an der Schnauzenspitze als am Maul. An der Schnauze befinden sich auch Sinnesorgane, mit denen selbst schwache elektrische Felder und feine Temperaturunterschiede wahrgenommen und somit Beutetiere geortet werden können. Rücken und Oberkörper des Störs sind dunkelgrün bis bläulich-schwarz. Darunter ist er hellgrau bis hell-bräunlich gefärbt; seine Bauchseite ist cremefarben bis gelblich-weiß. Der Russische Stör ist ein anadromer Wanderfisch, der zum Ablaichen in die Süßwasserflüsse aufsteigt. Hierbei legt er große Strecken von teilweise über 1.000 km zurück. Der Stör ist eine gefährdete Fischart Ernährung: Der Russische Stör ernährt sich primär von am Boden lebenden Mollusken (Weichtieren), Würmern und Krebstieren; erwachsene Fische auch von Fischen. Maße: Der Russische Stör ist ein Meeresfisch, der ungefähr 230-240 cm lang und über 100 kg schwer wird und maximal ca. 50 Jahre alt werden kann.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_01/5a4e80fc1ab6d_Str.thumb.JPG.ea8878079a2f92fb7cdc710aeea6c556.JPG'
+    },
+
+    {
+        name: 'Köhler',
+        text: `Normale Trophäe: 19 kg 
+        Seltene Trophäe: 28 kg
+        
+        Pollachius virens is a schooling fish of the cod family. It is widespread in the northern Atlantic Ocean and North Sea. The species lives at depths of up to 250 m. The saithe has an elongated body. The back is colored a dark green, sometimes almost black. Its sides are lighter than the back and have a pronounced sideline. The belly is silvery. Its average body length is on average 60-90 cm and can be up to 1.5 m long with a weight of more than 30 kg. The meat of this fish is often used as bait. `,
+        image:'https://rf4game.com/forum/uploads/monthly_2023_04/image.thumb.png.a43a0cdaedcca94a664dd86827ae862a.png'
+    },
+
+    {
+        name: 'Europäische Sardine',
+        text: `Normale Trophäe: 180 g 
+        Seltene Trophäe: 240 g
+        
+        Die Sardine (lat. Sardina pilchardus) auch europäische oder atlantische Sardine genannt, bewohnt den nordöstlichen Atlantik von Island und der norwegischen Küste bis zur Küste Nordafrikas. Sie ist im Schwarzen Meer, im Mittelmeer, im Marmarameer und im Adriatischen Meer verbreitet. Sie halten sich in Schwärmen in der Dicke der Küstengewässer auf, gewöhnlich in einer Tiefe von 10 bis 100 m.
+        Der Körper ist dicht, im Querschnitt abgerundet und mit feinen, ungleich großen, abfallenden Schuppen bedeckt. Die Hauptfarbe des Körpers ist silbrig; der Rücken ist grünlich-blau mit einem Schimmer; Flanken und Bauch sind hell. An den Seiten hinter dem Kiemendeckel befinden sich mehrere dunkle Flecken in einer Reihe. Rücken- und Schwanzflossen graublau. Kiemendeckel mit goldener Färbung. Zähne sind nicht vorhanden. Die maximale Körperlänge beträgt ca. 30 cm, der Durchschnitt etwa 15-20 cm. `,
+        image:'https://rf4game.de/forum/uploads/monthly_2023_04/image.thumb.png.cbf31e84d4045067e787744f570dad0e.png'
+    },
+
+    {
+        name: 'Albino-Lederkarpfen',
+        text: `Normale Trophäe: 30 kg 
+        Seltene Trophäe: 45 kg
+        
+        Wie andere Albino-Fische hat auch diese Form des Lederkarpfens eine helle Körperfärbung, die durch eine fehlende Pigmentierung von Schuppen und Haut verursacht wird. Außerdem sind die Augen von Albinokarpfen empfindlicher gegen Sonnenlicht, weshalb sie schattige Bereiche im Gewässer bevorzugen. Ansonsten unterscheiden sich diese Fische nicht von gewöhnlichen Karpfen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/n_carp_albino.thumb.jpg.c343c69cb5ab2698280fe4f9df2631b4.jpg'
+    },
+
+    {
+        name: 'Geister-Lederkarpfen',
+        text: `Normale Trophäe: 30 kg 
+        Seltene Trophäe: 45 kg
+        
+        Die Geister-Variante des Lederkarpfens ist eine Mischung aus Lederkarpfen und Koi-Karpfen. Das Ergebnis dieser Kreuzung ist ein ungewöhnlich farbenfroher Körper. Diese seltenen Karpfen werden von vielen Fischern geschätzt. Es wird angenommen, dass sie schlauer sind als ihre üblichen Verwandten, was bedeutet, dass sie auch viel schwerer zu fangen sind.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/n_carp_ghost.thumb.jpg.91bbcd1a315e9f1fc24d003dff4fbc52.jpg'
+    },
+
+    {
+        name: 'Sewan-Forelle',
+        text: `Normale Trophäe: 9 kg 
+        Seltene Trophäe: 14 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Sewan (Ischchan) bedeutet aus dem Armenischen übersetzt "Fürst". Ihren natürlichen Lebensraum hat die Sewan-Forelle im armenischen Sewansee; sie wurde aber auch in anderen Gewässern angesiedelt. Die Sewan-Forelle besitzt vier Unterarten, die sich in Wachstumsrate, Laichzeit und -ort voneinander unterscheiden. Während der aktiven Nahrungssuche sind die Fische dieser Art silberweiß mit stahlgrauem Rücken. Sie tragen nur wenige dunkle Tupfen, die - anders als bei der Regenbogenforelle - nicht x-förmig sind. Während der Laichzeit sind die Milchner dunkler, ihre Flossen werden fast ganz schwarz und die Flanken bekommen 2-3 rote Tupfen. Die Sewan-Forelle ist die größte Forellenart, die in der ehemaligen UdSSR vorkommt. Ernährung: Ausgewachsene Sewan-Forellen leben räuberisch, verschmähen aber auch Würmer, Larven und Insekten nicht. Maße: Durchschnittliches Gewicht ausgewachsener Fische: 2 kg. In großen Seen wie dem Sewansee oder Yssykköl kommen Exemplare mit einem Gewicht von mehr als 15 kg vor.`,
+        image:'https://rf4game.de/forum/applications/core/interface/js/spacer.png'
+    },
+
+    {
+        name: 'Lenok',
+        text: `Normale Trophäe: 5,5 kg 
+        Seltene Trophäe: 7 kg
+        
+        Der Lenok (Brachymystax lenok) wird in den Gewässern des Fernen Ostens, Sibiriens und in Primorye gefunden. Es handelt sich um einen räuberischen Süßwasserfisch mit einem kräftigen, geschwungenen Körper, der mit feinen, dichten Schuppen bedeckt ist. Die Färbung des Lenok is abhängig vom Alter des Fisches und den Bedingungen, unter denen er lebt. Der Lenok kann mit Posen- und Spinnmontagen gefangen werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/lenok_o.thumb.jpg.6c3fadbef0efbf0b62e4309c626f2201.jpg'
+    },
+
+    {
+        name: 'Seelaube',
+        text: `Normale Trophäe: 600 g 
+        Seltene Trophäe: 900 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Das Verbreitungszentrum der Seelaube, auch Mairenke (Alburnus chalcoides) genannt, befindet sich in den Becken des Schwarzen und des Kaspischen Meeres sowie des Aralsees. In den Flüssen bevorzugt sie Orte mit starker Strömung. Seelauben haben einen länglichen Körper und einen kleinen Kopf. Der Rücken ist oliv-braun, Seiten und Bauch sind silbrig. Ernährung: Seelauben ernähren sich von Insekten, Mollusken, pelagischem Laich, Larven und Jungfischen.. Maße: Ausgewachsene Seelauben erreichen eine Länge von 32 cm und ein Gewicht bis zu 390 g.`,
+        image:'https://rf4game.de/forum/applications/core/interface/js/spacer.png'
+    },
+
+    {
+        name: 'Aral Barbe',
+        text: `Normale Trophäe: 13 kg 
+        Seltene Trophäe: 18 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Aralbarbe ist eine Barben-Gattung (Luciobarbus) mit zwei Unterarten, wovon eine (L. brachycephalus caspius) im Einzugsgebiet des Schwarzen Meeres und im Kaspischen Meeresbecken lebt. Der Fisch unterscheidet sich durch seine Größe von den Vertretern der Gattung Barbus. Er hat eine längliche Schnauze, der Rücken ist dunkel, und der untere Teil der Flanken ist hell. Ernährung: Die Hauptnahrung der Aral-Barbe besteht aus Mollusken, Krebstieren und Larven von Wasserinsekten. Maße: Die Länge eines ausgewachsenen Fisches kann 1 Meter erreichen und seine Masse 21 kg überschreiten.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_12/sh_barbel.thumb.png.3b435263b587cf4d048cd14c0139c26a.png'
+    },
+
+    {
+        name: 'Seeskorpion',
+        text: `Normale Trophäe: 3 kg 
+        Seltene Trophäe: 4 kg
+        
+        Myoxocephalus scorpius is found in the northern part of the Atlantic Ocean, off the coast of Iceland and in the White, Barents, Kara and Baltic Seas at depths up to 60 m. The variegated color of the Shorthorn sculpin directly depends on the color of the bottom and can vary from yellow to dark brown, with an abundance of spots and stripes. It has strongly developed pectoral fins and a broad head with a large mouth. There are many small spines along the lateral line of the body and scales are absent. The Shorthorn sculpin is one of the largest representatives of its family. The length of an adult can reach 65 cm. `,
+        image:'https://rf4.info/img/fish/166.png'
+    },
+
+    {
+        name: 'Bachschmerle',
+        text: `Normale Trophäe: 65 g 
+        Seltene Trophäe: 80 g
+        
+        Die Bachschmerle (Barbatula toni Dybowski) lebt in Russland in allen Flüssen, die Richtung Arktis oder in den Pazifik fließen. Sie hat einen länglichen, seitlich zusammengedrückten Körper. Die Farbe des Rückens ist grünlich-braun, die Seiten sind heller. Um diesen Fisch zu fangen, ist eine Posen- oder Spinnausrüstung perfekt.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/barb_toni.thumb.jpg.f031459ebb0829e5d79b247926738319.jpg'
+    },
+
+    {
+        name: 'Sibirischer Hasel',
+        text: `Normale Trophäe: 250 g 
+        Seltene Trophäe: 390 g
+        
+        Lebensräume des sibirischen Hasels (Leuciscus leuciscus baicalensis) sind die Seen und Flüsse Sibiriens, insbesondere aber der Baikalsee. Sibirische Hasel sind eine Unterart Art des gewöhnlichen Hasels. Von letzterem unterscheiden sie sich durch die Maulform. Die Körperfarbe ist silbrig, der Rücken dunkelgrün. Zum Fang der sibirischen Hasel ist eine Posen- oder Spinnmontage am besten geeignet.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/syb_elets.thumb.jpg.8233cc1349f4406e8c4274e126fa47b3.jpg'
+    },
+
+    {
+        name: 'Sibirischer Gründling',
+        text: `Normale Trophäe: 150 g 
+        Seltene Trophäe: 200 g
+        
+        (Gobio gobio cynocephalus) Dieser Fisch ist in den Bächen und Flüssen Sibiriens weit verbreitet. Er hat einen länglichen, zylindrischen Körper. Seine Schuppen sind verhältnismäßig groß. Der Rücken besitzt eine grünlich-braune Farbe, die Flanken sind silbrig mit schwarzen Flecken. Er wird gut auf Schwimmer gefangen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/syb_gudgeon.thumb.jpg.a00577c144e9e5dea70de4bf636e1736.jpg'
+    },
+
+    {
+        name: 'Sibirisches Bachneunauge',
+        text: `Normale Trophäe: 150 g 
+        Seltene Trophäe: 200 g
+        
+        Das Sibirische Bachneunauge (Lethenteron kessleri) kommt in Flüssen des arktischen und atlantischen Ozeanbeckens vor. Sein langer gerundeter Körper hat eine leichte Verdickung im Kopfbereich. Die Färbung ist grünlich-grau. Außer mit Posenangeln können diese Neunaugen auch mit Hilfe von Spinn- und Grundangeln gefangen werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/s_lamprey.thumb.jpg.a0ec914a1310f23e32ab4703e7b41f2c.jpg'
+    },
+
+    {
+        name: 'Tunguska Rotauge',
+        text: `Normale Trophäe: 600 g 
+        Seltene Trophäe: 700 g
+        
+        Das Tunguska Rotauge (Rutilus rutilus lacustris) ist eine häufig vertretene Fischart im Jenissei und seinen Nebenflüssen. Die Seiten des Fisches sind dunkel, mit einem silberfarbigen Schuppenkleid die einen blauen oder grünen Farbschimmer ausstrahlen. Die Flossen sowie die Iris des Auges sind rötlich gefärbt. Das Rotauge wird erfolgreich auf Posenmontagen gefangen; es funktionieren aber auch einige Spinn- und Grundmontagen für den erfolgreichen Ansitz.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/syb_roach.thumb.jpg.fb0d6cc5abdef6208f0353962424c15d.jpg'
+    },
+
+    {
+        name: 'Kleine Sibirische Maräne',
+        text: `Normale Trophäe: 800 g 
+        Seltene Trophäe: 1100 g
+        
+        Die kleine Sibirische Maräne (Coregonus sardinella) lebt in den Gewässer-Becken des arktischen Ozeans, vom Weißen Meer bis hin zu Alaska. Die kleine Sibirische Maräne hat einen flachen, seitlich zusammengedrückten Körper. Ihr Rücken ist olivgrün, die Flanken und der Bauch sind silbrig. Sibirische Maränen fängt man am besten mit Posen- und Spinnangeln`,
+        image:'https://rf4.info/img/fish/81.png'
+    },
+
+    {
+        name: 'Sibirische Groppe',
+        text: `Normale Trophäe: 45 g 
+        Seltene Trophäe: 55 g
+        
+        Sibirische Groppe (Cottus sibiricus) sind im Jenissei-Fluss und seinen Nebenflüssen weit verbreitet. Dieser kleine Fisch hat einen großen abgeflachten Kopf und einen sich zum Schwanz hin verjüngenden Körper. Er ist hellbraun mit dunklen Flecken, die an Steine erinnern und ihn vor dem Hintergrund felsiger Böden fast unsichtbar machen. Das beste Werkzeug zum Fangen eines Sibirischer Dickkopfs ist eine Posenangel.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/bullhead_syb.thumb.jpg.320c047a1cec6c08089da95efaeb97dd.jpg'
+    },
+
+    {
+        name: 'Sibirischer Sterlet',
+        text: `Normale Trophäe: 9 kg 
+        Seltene Trophäe: 14 kg
+        
+        Der Lebensraum der Sibirischen Sterlets (Acipenser ruthenus marsiglii) ist auf das Ob-Irtysch-Becken und den Yenisei-Fluss beschränkt. Dieser Störfisch mit durchschnittlicher Größe hat einen länglichen, spindelartigen Körper. Die Färbung ist variabel und hängt von den Lebensbedingungen ab. Sibirisches Sterlets können auf Posen- Grund- und einigen Spinnmontagen gefangen werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/syb_sterlet.thumb.jpg.d64035a3465c2617792ed48bae883a62.jpg'
+    },
+
+    {
+        name: 'Sichling',
+        text: `Normale Trophäe: 1,5 kg 
+        Seltene Trophäe: 2 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Sichling, auch Ziege genannt, (Pelecus cultratus), ist ein karpfenartiger Süßwasserfisch. Der Sichling lebt in Osteuropa von der Oder bis zur Wolga und zum Ural, in der Donau, der Ostsee, dem Schwarzen und Kaspischen Meer, im Aralsee und in Südschweden. Sichlinge sind Schwarmfische, die sich tagsüber in der Nähe des Gewässergrunds aufhalten und nachts an die Oberfläche steigen. Der Sichling hat eine schlanke Gestalt, gerade Rückenlinie, ein oberständiges Maul und eine scharfe Bauchkante, so dass keine „Bauchseite“ vorhanden und der Fisch von unten sehr schlecht zu erkennen ist. Ernährung: Sichlinge ernähren sich von Würmern, Fisch, Insekten und deren Larven. Maße: Die Fische werden durchschnittlich 20 bis 30 cm lang bei einem Gewicht 100-150 Gramm. Maximal erreichen sie 60 cm und bis zu 900 Gramm Gewicht.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_01/Ziege.thumb.png.3b7e96f5763f4d15ae83894698970ff0.png'
+    },
+
+    {
+        name: 'Silberkarpfen ',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 40 kg
+        
+        Beschreibung und natürliches Vorkommen:
+         Der Silberkarpfen (Hypophthalmichthys molitrix), auch Tolstolob oder Silberamur genannt, ist ein geselliger Freiwasserfisch aus der Familie der Karpfenfische. Der Silberkarpfen bewohnt tiefe, warme Fließgewässer und Seen Ostasiens. In Fließgewässern werden kraftsparende, ruhige Standplätze bevorzugt. Der Silberkarpfen hat einen breiten, zugespitzten Kopf sowie einen gestreckten und seitlich abgeflachten, mehr oder weniger hochrückigen Körper. Ernährung: Silberkarpfen ernähren sich von feinstem pflanzlichem Plankton mit einer Partikelgröße von weniger als 0,1 mm, das sie mit Hilfe ihres zu einem feinen Sieb verwachsenen Kiemenreusenapparates aus dem Wasser filtern. Maße: Unter guten Lebensbedingungen kann der Silberkarpfen über 100 cm lang und an die 15 kg schwer werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_01/Silbkarp.thumb.png.69651c376f7d9ba74b4dd130fa816167.png'
+    },
+
+    {
+        name: 'Kleiner Rotbarsch',
+        text: `Normale Trophäe: 3 kg 
+        Seltene Trophäe: 4 kg
+        
+        Sebastes viviparus lives in the northern waters of the Atlantic Ocean and is common off the coast of Norway. It lives in small shoals at depths of 80 to 500 m. Its body is compressed from the sides has a bright red-pink coloration as an adult. Young fish are more muted, brownish and do not descend to greater depths. The maximum size is about 70 cm in length, with a body weight of 5 kg. The average length is 40 - 50 cm. `,
+        image:'https://rf4game.com/forum/uploads/monthly_2023_04/image.thumb.png.f9c7b12c55952c1b088acdca6b991950.png'
+    },
+
+    {
+        name: 'Südlicher Neunstachliger Stichling',
+        text: `Normale Trophäe: 70 g 
+        Seltene Trophäe: 90 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Südliche Neunstachlige Stichling (Pungitius platygaster) bewohnt die Becken des Schwarzen, Asowschen und Kaspischen Meeres. Er bevorzugt flache Gewässerbereiche, die reichlich mit Wasservegetation bewachsen sind. Der Körper des Fisches ist mit kleinen Knochenplatten bedeckt. Auf dem Rücken befinden sich 8-11 einzelne spitze Stacheln, die in verschiedene Richtungen weisen. Sein Rücken ist olivgrün, die Flanken sind hell. Ernährung: Der Fisch ernährt sich von Insektenlarven, Krebstieren, Mollusken, Fischlaich sowie Wasserpflanzen. Maße: Die Körperlänge eines ausgewachsenen Exemplares kann bis zu 7 cm betragen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_12/stickleback_ss.thumb.png.4d10b68f338422649002bf15be6428e6.png'
+    },
+
+    {
+        name: 'Stint',
+        text: `Normale Trophäe: 130 g 
+        Seltene Trophäe: 200 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Stint (Osmerus eperlanus) gehört zu der Gattung der Salmoniden. Beheimatet ist er an den Küstengewässern Europas von der Ostsee bis Biskaya. Er hat einen schlanken, leicht transparenten Körper, dessen Seiten, graugrün bis leicht rosa/silbrig glänzend schimmern. Stinte leben meist in riesigen Schwärmen Besonders charakteristisch für den Stint ist, dass sein Geruch an frische Gurken erinnert. Ernährung: Stinte ernähren sich von Planktonkrebsen, Bodentieren oder auch Jungfischen der eigenen Art. Maße: Das Alter von 6 Jahren überschreitet ein Stint sehr selten. Bis dahin erreicht er eine maximale Größe von 10 bis 20 cm.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_09/e_smelt.thumb.jpg.572b9bacb7edce20afdd3965a1ddc10f.jpg'
+    },
+
+    {
+        name: 'Rotlachs',
+        text: `Normale Trophäe: 4,5 kg 
+        Seltene Trophäe: 6 kg
+        
+        Der Rotlachs (Oncorhynchus nerka) ist ein Mitglied der Lachsfamilie. In Russland findet man diesen Fisch an der West- und Ostküste der Halbinsel Kamtschatka, auf den Kurilen und in den Gewässern von Tschukotka. Die Körperform des Rotlachses ähnelt der des Keta-Lachses. Während der Laichzeit, ist der Körper in einem himbeerfarbenen Laichkleid eingefärbt. Der Kopf nimmt eine grünliche Färbung an, die Kiefer werden länger, wobei der Oberkiefer wie ein Schnabel nach unten gebogen wird und so den Laichhaken formt. Die Form des Rückens ändert sich und wird buckelig. Bei weiblichen Tieren sind diese Veränderungen viel milder ausgeprägt. Beim Angeln auf den Rotlachs können sowohl Posenausrüstung als auch einige Spinnfisch Montagen verwendet werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_05/nerka.thumb.jpg.62d9231c373c825b9fd967adb3b0e944.jpg'
+    },
+
+    {
+        name: 'Dornhai',
+        text: `Normale Trophäe: 7 kg 
+        Seltene Trophäe: 10 kg
+        
+        Squalus acanthias is one of the most common shark species in the world. It is equally comfortable in both the Black Sea and the Barents Sea.  It prefers to live close to shore at shallow depths. This is a small shark, whose length can reach just under 1.5 m, and weigh up to 12 kg. A streamlined body, covered with tough grayish brown scales, makes the Spiny dogfish an excellent swimmer. Between the front and rear fins, this shark has spines that almost reach the size of the fins. `,
+        image:'https://rf4game.com/forum/uploads/monthly_2023_04/image.thumb.png.85d71b96faac5a924c9e453a35af58c7.png'
+    },
+
+    {
+        name: 'Gefleckter Seewolf',
+        text: `Normale Trophäe: 17 kg 
+        Seltene Trophäe: 22 kg
+        
+        Anarhichas minor lives in the northern Atlantic, Barents and Norwegian Seas. It prefers the near-bottom zone at depths of up to 500 meters. The spotted wolffish has a long, predatory body and flattened head. Wide, black, transverse body stripes form individual spots in adults. The length of the spotted wolffish is usually about 1 meter, but can be up to 2 m with a weight of about 30 kg. It is most often caught on special bottom tackle with rattles and brightly colored attractants. `,
+        image:'https://rf4game.com/forum/uploads/monthly_2023_04/image.thumb.png.f51bcad4627fde1e10b87696c3d28be4.png'
+    },
+
+    {
+        name: 'Goldener Spiegelkarpfen',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 40 kg
+        
+        Dies ist eine rötliche Variante des Spiegelkarpfens. Goldene Spiegelkarpfen stammen ursprünglich aus Ungarn. Es ist eine gezüchtete Sorte, die auf schnelles Wachstum und hohe Fruchtbarkeit ausgerichtet ist. Das Hauptmerkmal dieser Hybridform ist die rötlich-orange Farbe der Haut.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2019_12/m_carp_red.thumb.jpg.808ca4e4f70cf19f05dfbfaf638d4436.jpg'
+    },
+
+    {
+        name: 'Scherg',
+        text: `Normale Trophäe: 50 kg 
+        Seltene Trophäe: 70 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Scherg oder Sternhausen (Acipenser stellatus) ist ein Vertreter der Störfamilie. Seine Lebensräume sind die Becken des Kaspischen, Schwarzen und Asowschen Meeres. Charakteristisch für das Aussehen dieses Fisches ist die stark verlängerte Maulspitze, deren Länge etwa 60% der gesamten Länge des Kopfes ausmacht. Der Rücken des Schergs ist in der Regel schwarzbraun, die Seiten sind hell, und der Bauch ist weiß. Ernährung: Die Ernährungsbasis des Schergs sind Krebstiere. Erwachsene Tiere fressen aber auch Fische. Maße: Der Scherg ist etwas kleiner als andere Störarten. Sein durchschnittliches Gewicht beträgt etwa 7 - 10 kg. Einige Exemplare erreichen jedoch eine Länge von mehr als 2 m und ein Gewicht von 80 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_12/st_sturgeon.thumb.png.89ca608487eeeaaf6f29f0989e255779.png'
+    },
+
+    {
+        name: 'Sterlet',
+        text: `Normale Trophäe: 9 kg 
+        Seltene Trophäe: 14 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Sterlet (Acipenser ruthenus) ist eine wertvolle Speisefischart. Er gehört zur Familie der Störe. Der Sterlet lebt in Flüssen Nordrusslands, welche ins Kaspische Meer, ins Asowsche Meer und in das mit ihm verbundene Schwarzen Meer sowie ins Weiße Meer und die Karasee münden. In Flussbett findet man ihn an tiefen Stellen mit sandigen Böden ohne Schlamm. Er bevorzugt dabei Bereiche mit schnell fließendem und kaltem Wasser. Von anderen Störartigen unterscheidet sich der Sterlet durch seine geringere Größe. Das ausstülpbare und unterständige Maul besitzt wulstige Lippen, die Unterlippe ist in der Mitte eingeschnitten. Der Sterlet besitzt einen langgestreckten, schlanken und spindelförmigen Körper, der mit 5 Längsreihen aus Knochenschildern bedeckt ist. Er hat eine dunkelgraue bis braune Grundfärbung. Der Bauch ist gelblich bis weiß mit rotem Schimmer. Ernährung: Der Sterlet ernährt sich hauptsächlich von bodenlebenden Insektenlarven (z.B. Eintagsfliegen), kleinen Krebstieren, Würmern und anderen Wirbellosen, aber auch von Fischlaich. Er steigt auch an die Wasseroberfläche, um dort treibende Insekten zu fressen. Maße: Der Sterlet wird durchschnittlich 40-60 cm lang und hat ein Gewicht von 500 g bis 2 kg. Große Exemplare erreichen eine Länge von 120 cm und ein Gewicht von über 10 kg.`,
+        image:'https://rf4game.com/forum/uploads/monthly_2017_10/sterlet_m.png.22b8bc352a3231d626557312ea7f91d2.png'
+    },
+
+    {
+        name: 'Svir Felchen',
+        text: `Normale Trophäe: 3 kg 
+        Seltene Trophäe: 4 kg
+        
+        Das Svir-Felchen ist dem Wolchow-Felchen sehr ähnlich, hat aber einen kürzeren Kopf, einen schlanken Körper und eine dunklere Farbe. Wie andere Felchenarten kann es erfolgreich mit Posen und einigen Arten von Spinning-Rigs gefangen werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_12/sv_sig.thumb.jpg.0c53883c33e8cf9b9cecfcf27db08600.jpg'
+    },
+
+    {
+        name: 'Schwertfisch',
+        text: `Normale Trophäe: 300 kg 
+        Seltene Trophäe: 400 kg
+        
+        Xiphias gladius is a valuable commercial fish. Its range is in the Indian, Pacific and Atlantic Oceans. An active and voracious predator, it is solitary and prone to long-distance migrations - in summer to more northern areas, in winter it moves southwards to warmer waters. It lives at depths of up to 400 m and is often found in the uppermost layer of water. It is one of the fastest fish. It is believed that it can reach speeds of over 100 km / h. The body of swordfish is strong, elongated, cylindrical in the section, and the tail narrows. The jaw is quite large. As an adult, the upper jaw takes on a characteristic elongated shape in the form of a pointed sword. The eyes are large, blue, in colour. The first dorsal fin is triangular and pointed much larger than the second, which is closer to the tail. The upper part of the body is dark brown, laterally to the belly turns to a light brown tone. All fins are dark brown. Large specimens can be up to 6 m long and weigh over 600 kg. The average length is about 3 m. `,
+        image:'https://rf4game.com/forum/uploads/monthly_2023_04/image.thumb.png.c71b561d617e2160d438ca5d07dfc90b.png'
+    },
+
+    {
+        name: 'Taimen',
+        text: `Normale Trophäe: 50 kg 
+        Seltene Trophäe: 80 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Taimen (Hucho taimen) ist ein Fisch aus der der Lachsfamilie. Er lebt in den sibirischen Stromsystemen im fernen Osten Russlands, kommt aber auch in großen Flüssen des europäischen Teils von Russland vor. Der längliche Körper des Taimens ist mit flachen Schuppen bedeckt. Sein Rücken ist dunkelbraun, manchmal auch grünlich. Die Seiten sind hellbraun mit dunklen Flecken, der Bauch ist weißlich. Der Taimen ähnelt in der Körperform dem europäischen Huchen, sein Kopf ist aber stärker abgeflacht und das Maul mit scharfen gebogenen Zähnen versehen. In dieser Hinsicht gleicht der Fisch eher einem Hecht und wird aus diesem Grund im Ural manchmal auch "Roter Hecht" genannt. Ernährung: Im Beutespektrum dieses Raubfisches befinden sich nicht nur andere Fische; er frisst auch kleine Säugetiere, die ins Wasser gelangen. Maße: Ausgewachsene Taimens können beeindruckende Größen von 1,5-2 Meter erreichen und mehr als 60 kg wiegen. Die durchschnittliche Länge von erwachsenen Fischen überschreitet aber normalerweise, bei einem Körpergewicht von 3-4 kg, keine 70 cm.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_07/Taimenistr.png.ae310959640c8e8ac6afcf250519be0a.png'
+    },
+
+    {
+        name: 'Sibirische Plötze',
+        text: `Normale Trophäe: 1,3 kg 
+        Seltene Trophäe: 1,9 kg
+        
+        Der Hauptlebensraum der Plötze sind die Becken des Asowschen und Schwarzen Meeres. Die Sibirische Plötze hat einen länglichen, von den Seiten verdichteten, hohen Körper. Schuppen sind an den Seiten silber bestickt. Der obere Teil von Kopf und Rücken ist dunkel. Die maximale Länge der Erwachsenen Fische beträgt 35 cm. Die Sibirische Plötze ist perfekt auf einem fang mit einem Schwimmer geeignet.`,
+        image:'https://rf4.info/img/fish/16.png'
+    },
+
+    {
+        name: 'Schleie',
+        text: `Normale Trophäe: 4 kg 
+        Seltene Trophäe: 6 kg
+        
+        Beschreibung und natürliches Vorkommen:
+        Die Schleie (Tinca tinca) ist ein Fisch aus der Familie der Karpfenfische (Cyprinidae). Sie kommt praktisch in ganz Europa vor. Als Herkunftsgebiet der Schleie gelten Europa, Kleinasien und Westsibirien. Die Schleie lebt gesellig, bildet aber keine Schwärme wie andere Cypriniden. Der Fisch bevorzugt sommerwarme stehende oder langsam fließende Gewässer. Schleien sind hinsichtlich ihres Lebensraumes und der Wasserqualität nicht sehr anspruchsvoll, benötigen allerdings naturbelassene Uferbereiche mit reichen Unterwasserpflanzenbeständen. Schleien haben ein mäßig hochrückigen Körper mit deutlich abgerundeten Flossen. Die Schwanzwurzel ist auffällig breit, und die kleinen Schuppen sind von einer dicken Schleimschicht überzogen. Die Iris der Augen ist meist intensiv rot oder dunkelorange gefärbt. Das Maul ist vorstülpbar. In den Maulwinkeln sitzt jeweils ein relativ kurzer Bartfaden. Die Schlundzähne sind einreihig und sehen aus wie Haken. Die Färbung der Schleie variiert zwischen dunkelblau und dunkelgrün am Rücken und gelbgrün an den Flanken; zusätzlich findet man oft einen goldfarbenen Schimmer. Typisch für die Schleie ist ihr gemächliches Verhalten während der Nahrungsaufnahme, aber auch sonst fallen die Bewegungen der Schleie meist recht langsam aus. Die Hauptaktivität liegt in der Dämmerung und in den Nachtstunden. Ernährung: Schleien sind bei ihrer Nahrungssuche auf Benthoslebewesen spezialisiert. Sie stehen während der Nahrungsaufnahme regelrecht kopfüber und durchwühlen die Schlammschicht des Gewässergrundes. Insektenlarven, Würmer, Schnecken, kleine Muschelarten und pflanzliche Kost stellen den Großteil ihrer Nahrung dar. Maße: Die Schleie erreicht unter günstigen Bedingungen ein Gewicht bis über 7 kg und eine Länge über 70 cm, die Durchschnittsgröße liegt bei 20 - 40 cm.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_05/tench_m.thumb.png.a0dfafd14d8a1aeacc1c1686900e6e98.png'
+    },
+
+    {
+        name: 'Pazifisches Neunauge',
+        text: `Normale Trophäe: 150 g 
+        Seltene Trophäe: 200 g
+        
+        Entosphenus tridentatus is a fairly large representative of the Cyclostomata superclass. Its range is from the Bering Sea to the Northern California coast. It is also found off the coast of Asia, the Commander Islands and the island of Hokkaido. Like all lampreys it has a scaleless, cylindrical body from head to dorsal fin that flattens slightly at the tail. The mouth is round and the maxillary plate has three teeth. Lamprey can be caught with a variety of fishing equipment. `,
+        image:'https://rf4game.com/forum/uploads/monthly_2021_05/trid_lamprey.thumb.jpg.224a0dfda7f9e9d0725d8687af64e6a6.jpg'
+    },
+
+    {
+        name: 'Dreistachliger Stichling',
+        text: `Normale Trophäe: 70 g 
+        Seltene Trophäe: 90 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Dreistachlige Stichling (Gasterosteus aculeatus) ist ein Mitglied der Stichlings-Familie der. Diese Fische sind in den nördlichen Regionen des Pazifiks und des Atlantischen Ozeans, im Weißen Meer und auch in Gewässern Europas weit verbreitet. Namensgebend und besonders auffällig sind die drei Stacheln vor der Rückenflosse. Ernährung: Der Dreistachlige Stichling ernährt sich von kleinen Krebsen, Fischrogen, Insektenlarven und Fischbrut. Maße: Die Körperlänge des Dreistachligen Stichlings variiert von 4 bis 10 cm bei einem Körpergewicht von bis zu 10 g.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_09/stickleback_threesp.thumb.jpg.2f9fb5616537b038469a1783e6949dd2.jpg'
+    },
+
+    {
+        name: 'Tugun',
+        text: `Normale Trophäe: 60 g 
+        Seltene Trophäe: 70 g
+        
+        Der Tugun (Coregonus tugun) ist ein endemischer Bewohner sibirischer Stauseen und Flüsse, die in den Arktischen Ozean münden. Er hat einen glatten Körper, der mit feinen Silberschuppen bedeckt ist. Tuguns fängt man auf Schwimmer und mit einigen Spinnmontagen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2020_07/tugun.thumb.jpg.d81ced8a3ec0b24dbe8e1184e8c79989.jpg'
+    },
+
+    {
+        name: 'Ukrainisches Bachneunauge',
+        text: `Normale Trophäe: 70 g 
+        Seltene Trophäe: 100 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Das ukrainische Bachneunauge (Eudontomyzon mariae) lebt in den Flussbetten des Dnjepr, Dnjestr, Don und Kuban. Es hat einen wurmförmigen, länglichen, schuppenfreien Körper. Das Bachneunauge ist in der Regel dunkelgrau mit hellem Bauch. Der Fisch hält sich vorzugsweise im Schutz der Ufervegetation an Stellen mit schneller Strömung und steinigem Grund auf. Maße: Die Länge eines erwachsenen Tieres beträgt im Durchschnitt 15 - 20 cm.`,
+        image:'https://rf4game.de/forum/applications/core/interface/js/spacer.png'
+    },
+
+    
+    {
+        name: 'Ukrainisches Bachneunauge',
+        text: `Normale Trophäe: 70 g 
+        Seltene Trophäe: 100 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Das ukrainische Bachneunauge (Eudontomyzon mariae) lebt in den Flussbetten des Dnjepr, Dnjestr, Don und Kuban. Es hat einen wurmförmigen, länglichen, schuppenfreien Körper. Das Bachneunauge ist in der Regel dunkelgrau mit hellem Bauch. Der Fisch hält sich vorzugsweise im Schutz der Ufervegetation an Stellen mit schneller Strömung und steinigem Grund auf. Maße: Die Länge eines erwachsenen Tieres beträgt im Durchschnitt 15 - 20 cm.`,
+        image:'https://rf4game.de/forum/applications/core/interface/js/spacer.png'
+    },
+
+    {
+        name: 'Valaam Buckelmaräne',
+        text: `Normale Trophäe: 1,5 kg 
+        Seltene Trophäe: 2,4 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Buckelmaräne (Coregonus widegreni) ist mit den wandernden Renken der Ost -und Nordseen verwandt, kommt aber spezifsch im Ladoga- und Onega-Seengebiet vor. Im Ladoga-See findet man sie oft in der Nähe der Walaam-Insel - daher der russische Name "Walaam-Renke". Sie kommt in einer Tiefe von mehr als 50 m vor. Bei einer Aufwärtsbewegung zur Oberfläche bläht sich die Schwimmblase auf und kann dann den gesamten Bauchraum ausfüllen. Ernährung: Buckelmaränen ernähren sich von benthischen Organismen und Plankton. Maße: Die übliche Länge von Buckelmaränen liegt zwischen 40-50 cm; das Gewicht beträgt zwischen 1-1,5 kg. Große Exemplare erreichen eine Länge von mehr als einem halben Meter und eine Masse von mehr als 2 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_09/sig_valaam.thumb.jpg.97d9246c5d8c3b2ca124c31a31ff907a.jpg'
+    },
+
+    {
+        name: 'Zwergmaräne',
+        text: `Normale Trophäe: 500 g 
+        Seltene Trophäe: 800 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Ein Süßwasserfisch aus der Familie der Lachsfische (Salmonidae). Er kommt in Nordeuropa von Großbritannien bis in den Nordwesten Russlands vor. Die Kleine Maräne hat eine schlanke Körperform. Sie wirkt heringsähnlich, hat aber - wie andere Maränen - eine Fettflosse. Das Maul ist oberständig, da der Unterkiefer etwas vorsteht. Die Seiten und der Bauch sind silbern, während der Rücken blaugrün gefärbt ist. Ernährung: Die Nahrung besteht überwiegend aus Zooplankton. Maße: Durchschnittliche Länge: 25 cm. Maximal bis 35 cm`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_05/vendace_b.thumb.png.b1442b373f4e0f226b01d185e0cd4873.png'
+    },
+
+    {
+        name: 'Zährte',
+        text: `Normale Trophäe: 1,5 kg 
+        Seltene Trophäe: 2,4 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Eine Fischart aus der Familie der Karpfenfische (Cyprinidae). Die Zährte lebt gesellig - teils als Stand-, teils als Wanderform - vor allem am Grund langsam fließender Unterläufe der großen Flüsse, die in die Nordsee, die Ostsee, das Schwarze und das Kaspische Meer münden. Die Zährte hat einen gestreckten, seitlich schwach abgeflachten Körper. Die Kopfspitze ist nasenartig verlängert und trägt eine schwarze Färbung, was dem Fisch den umgangssprachlichen Namen Rußnase verleiht. Der Rücken der Zährte ist dunkelgrau bis bläulich, während die Flanken heller und meist rötlich getönt sind und silbern glänzen. Der Bauch ist orangefarben bis silberweiß. Brust-, Bauch- und Afterflossen sind gelblich mit rötlich getönter Basis. Ernährung: Die Zährte ernährt sich von Insektenlarven und anderen Kleintieren, wie Muscheln, Würmer und Schnecken, nimmt aber auch auch pflanzliche Nahrung. Maße: Der schlanke, auch als Speisefisch genutzte Fisch wird etwa 20 bis 35 cm lang und wiegt 700 bis 1.000 g. Große Exemplare erreichen auch bis 50 cm und werden ca.3 kg schwer.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/v_bream_m.thumb.png.d0eedf98804c2638b2186d4b6a6b4fc4.png'
+    },
+
+    {
+        name: 'Aalmutter',
+        text: `Normale Trophäe: 900 g 
+        Seltene Trophäe: 1300 g
+        
+        Zoarces viviparus is common along the European coast from the La Manche Strait all the way to northern Norway. It can also be found in the White Sea and the Barents Sea. This coastal saltwater fish is most commonly found in water depths of up to 40 meters. The body of the eelpout is muscular, with dense skin and fine rounded or oval scales. The body is yellowish- or greenish-brown. The abdomen is yellowish-gray. Adults usually reach 30 cm in length, but some specimens can grow to 50 – 60 cm and weigh about 1.5 kg. `,
+        image:'https://rf4game.com/forum/uploads/monthly_2023_04/image.thumb.png.6b53fc6f88aca9b231256b0eae1d6dee.png'
+    },
+
+    {
+        name: 'Steinschill',
+        text: `Normale Trophäe: 1,4 kg 
+        Seltene Trophäe: 2,2 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Wolgazander oder Steinschill (Sander volgensis) ist ein Fisch aus der Familie der Echten Barsche. Er bewohnt die tieferen sandigen Flussabschnitte der Donau und der Wolga bis hin zum Ural, kommt aber auch im Kaspischen Meer sowie im Schwarzen Meer vor. Er bevorzugt sauberes Wasser und nicht allzu starke Strömung. Sandgrund und Steingrund sind seine beliebten Aufenthaltsorte. Vom Körperbau her könnte man den Steinschill als eine "Mischung" aus Zander und Flussbarsch bezeichnen. Im Vergleich zum Zander hat er einen relativ stumpfen Kopf mit vergleichsweise großen Augen. Das Maul ist endständig und mit kleinen spitzten Zähnen besetzt; die charakteristischen Hundszähne des Zanders an den Ecken am Ober und - Unterkieferfehlen fehlen. Am Ende der Kiemendeckel sitzt ein kurzer Knochendorn. Die Körperfärbung des Steinstills ähnelt sehr dem Zander: Helle und dunkle Grau-, am Rücken auch zarte Grüntöne dominieren. Vom Rücken bis über die Seitenlinie fast bis hinter den Bauch ziehen sich deutliche schwarze bis dunkelblau gefärbte Querbänder. Der Steinschill besitzt zwei durch einen sehr kurzen Abstand getrennte Rückenflossen, deren erste mit kräftigen Stachelstrahlen bewehrt und auffallend hoch ist. Aufgrund seines insgesamt relativ kleinen Mauls und dem Fehlen der "Hundszähne" kann der Steinschill keine Beutefische über 5 cm zu sich nehmen. Ernährung: In der Jugend (bis zu 4 cm Länge) besteht die Nahrung ausschließlich aus Zooplankton. Ab dem zweiten Lebensjahr wird die Nahrung komplett auf kleine Fische umgestellt. Maße: Das Durchschnittsgewicht liegt etwa bei 0,8 - 1,2 kg. Die Endgröße liegt bei 45 cm mit einem Maximalgewicht von 2 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_05/barsch_m.thumb.png.01bd45cdf0a40e68f61af1752adcc4b4.png'
+    },
+
+    {
+        name: 'Wolchow Renke',
+        text: `Normale Trophäe: 4 kg 
+        Seltene Trophäe: 7 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Wolchow-Renke (Coregonus spec.) kommt innerhalb des Ladogasees am häufigsten nahe der Mündung der Flüsse Wolchow und Swir vor. Äußerlich ähnelt sie mit ihrem länglichen Körper, dem Kopf mit breiter Stirn sowie den kleinen Augen und großen Schuppen. einer gewöhnlichen Renke. Ihr Rücken ist dunkel, fast schwarz, der Bauch heller. Die Farbe der Flossen variiert von Grau bis Schwarz. Ernährung: Die Fische ernähren sich von Mollusken, kleinen Krebstieren und Insekten. Sie können auch Fischlaich und kleine Fische fressen. Maße: Die durchschnittliche Körperlänge beträgt 40-50 cm, das Gewicht 1-1,5 kg. Große Exemplare können 60 cm lang und 2 kg schwer werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_09/sig.thumb.jpg.c09b1fd69caff340ab6b4cf464e3d42d.jpg'
+    },
+
+    {
+        name: 'Vuoksi Renke',
+        text: `Normale Trophäe: 3 kg 
+        Seltene Trophäe: 5 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Wolchow-Renke (Coregonus spec.) kommt innerhalb des Ladogasees am häufigsten nahe der Mündung der Flüsse Wolchow und Swir vor. Äußerlich ähnelt sie mit ihrem länglichen Körper, dem Kopf mit breiter Stirn sowie den kleinen Augen und großen Schuppen. einer gewöhnlichen Renke. Ihr Rücken ist dunkel, fast schwarz, der Bauch heller. Die Farbe der Flossen variiert von Grau bis Schwarz. Ernährung: Die Fische ernähren sich von Mollusken, kleinen Krebstieren und Insekten. Sie können auch Fischlaich und kleine Fische fressen. Maße: Die durchschnittliche Körperlänge beträgt 40-50 cm, das Gewicht 1-1,5 kg. Große Exemplare können 60 cm lang und 2 kg schwer werden.`,
+        image:'https://rf4.info/img/fish/68.png'
+    },
+
+    {
+        name: 'Güster',
+        text: `Normale Trophäe: 800 g 
+        Seltene Trophäe: 1200 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Güster (Blicca bjoerkna) zählt zu den Karpfenfischen. Er ist in den Binnengewässern Mitteleuropas nördlich der Alpen und den Pyrenäen verbreitet. In Großbritannien kommt der Güster lediglich in einigen östlichen Flüssen vor, im Norden Skandinaviens und auf dem Balkan findet man ihn nicht. Der Güster wird in Deutschland auch Blicke, Halbbrachse oder Pliete genannt. Der Güster ist ein geselliger Schwarmfisch und bevorzugt stille oder langsam fließende Gewässer (Brachsenregion). Dort lebt er am Gewässergrund oder in Ufernähe. Im Aussehen ähnelt der Güster stark der Brachse. Der Unterschied ist, dass der Güster zweireihige Schlundzähne hat, etwas größere Schuppen, und eine weniger stark eingebuchtete Afterflosse. Der silbrige Körper ist seitlich stark zusammengedrückt und sehr hochrückig. Die Ansätze der paarigen Flossen sind rötlich gefärbt. Ernährung: Der Güster hat ein ziemlich variables Nahrunsspektrum: Zooplankton, Mollusken, Würmer, Insekten und deren Larven. Maße: Der durchschnittliche Güster ist 30 cm lang, mit einem Gewicht von 400 g. Kapitale Güster können auch 1200 g erreichen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_05/s.bream_m.thumb.png.88a289da5d467f6bd250ba6db4205b0c.png'
+    },
+
+    {
+        name: 'Zobel',
+        text: `Normale Trophäe: 600 g 
+        Seltene Trophäe: 900 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Zobel (Ballerus sapa) lebt überwiegend in fließenden Gewässerabschnitten der Flüsse des europäischen Kontinents (z.B.: Donau, Dnister, Bug, Dnepr, Don, Wolga, Kama, Wjatka, Ural). Er bevorzugt starke Strömung. Kapitale Zobel halten sich in der Tiefe auf, Jungfische dagegen in Ufernähe. Zobel haben einen seitlich stark zusammengedrückten, beinahe so hochrückigen Körper wie die Brachse oder Güster. Der Rücken ist meist dunkel und grau-schwarz bis grau-grün gefärbt. Die paarigen Flossen sind hellgrau bis gelb-weiß, After-, Rücken- und Schwanzflosse zeigen oft einen dunklen Saum. Als besonders Merkmal des Zobels gilt seine lange Afterflosse. Der Kopf ist verhältnismäßig klein, die Augen sitzen weit vorne am Kopf und sind relativ groß. Zobel suchen ihre Nahrung am Gewässergrund. Dabei halten sie sich sowohl im Hauptfluss als auch in den Mündungsbereichen größerer Zubringer auf. Der natürliche Bestand ist stark gefährdet. Ernährung: Zobel nehmen mit ihrem empfindsamen Rüsselmaul Zuckmückenlarven, Muscheln sowie andere Insekten auf. Maße: Durchschnittsgröße je nach Gewässer: Etwas über 40 cm; Gewicht bis zu 1 kg. Jedoch gibt es auch Ausnahmen, die den Durchschnitt übersteigen und bis zu 1,5 kg schwer werden können.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_05/wa_bream_m.thumb.png.316873bbd5faa195a6f7fc4209080407.png'
+    },
+
+    {
+        name: 'Japanischer Saibling',
+        text: `Normale Trophäe: 10 kg 
+        Seltene Trophäe: 14 kg
+        
+        Der Japanische Saibling (Salvelinus leucomaenis) lebt in der Beringsee, Ochotsk und vor Japan. Er kommt außerdem im Nordwesten des Pazifischen Ozeans, im Amur und in den Flüssen Kamtschatkas vor. Der Japanische Saibling hat einen kräftigen, muskulösen Körper und einen massiven Kopf. Seine Farbe ist normalerweise hellgelb mit großen hellen runden Flecken. Während der Laichzeit verdunkeln sich die Schuppen und nehmen eine dunkelgraue Farbe an. Die hellen Flecken an den Seiten werden weniger wahrnehmbar. Für das Fischen auf diesen Saibling eignen sich vor allem Kunstköder oder lebende Köder.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2021_05/kunja.thumb.jpg.854e97ca2570566b2b32a5fda27d29e6.jpg'
+    },
+
+    {
+        name: 'Wittling',
+        text: `Normale Trophäe: 3 kg 
+        Seltene Trophäe: 4 kg
+        
+        Merlangius merlangus lives in the north-east Atlantic Ocean from the Barents Sea to Portugal. It occurs in the Aegean, Black Sea and Adriatic Sea. Generally lives at depths of 20 to 200 m, preferring muddy, gravelly-sandy or rocky substrates. The body is elongated, with a whitish belly and grey or grey-green back. The caudal fin is almost square. Body length is usually up to 30 - 35 cm. They can grow up to one meter in length with a weight of 5 kg. `,
+        image:'https://rf4.info/img/fish/171.png'
+    },
+
+    {
+        name: 'Wildkarpfen',
+        text: `Normale Trophäe: 25 kg 
+        Seltene Trophäe: 35 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Wildkarpfen (Cyprinus carpio) ist die Urform des Karpfens. Aus ihm wurden alle anderen Varianten herausgezüchtet. Genetisch reine Wildkarpfen sind heute in Deutschland und in ganz Europa nur noch selten zu finden. Der Wildkarpfen wächst wesentlich langsamer als seine Zuchtvarianten; grundsätzlich hängt sein Wachstum aber ebenfalls von Temperatur und Länge der Vegetationsperiode ab. Karpfen sind Schwarmfische, die den Winter an den tiefsten Stellen überdauern und in dieser Zeit keine Nahrung aufnehmen. Der Wildkarpfen ist lang gestreckt und seitlich etwas abgeflacht mit vollständig beschupptem Körper. Der Rücken ist olivgrün mit helleren Flanken und gelblichem bis weißlichem Bauch. Im Gegensatz zu den anderen in Europa vorkommenden Cypriniden hat der Wildkarpfen zwei Paar Barteln seitlich an der Oberlippe, von denen das vordere Paar kürzer ist. Die Schuppen sind sehr groß und kräftig. Ernährung: Als Nahrung dienen vorwiegend Bodentiere (Würmer, Schnecken, Muscheln, Kleinkrebse, Insektenlarven), die durch Vorstülpen des Maules aufgenommen werden. Fehlt dem Karpfen die nötige Proteinmenge, verzehrt er auch ab und an kleine Fische wie Lauben oder Rotaugen. Maße: Karpfen erreichen meist eine Länge von 40 bis 80 Zentimetern, können in Einzelfällen bis 1 Meter lang und über 20 Kilogramm schwer werden.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_01/Wildkarpf.thumb.png.b70993947faacce21d0a404815636b04.png'
+    },
+
+    {
+        name: 'Zander',
+        text: `Normale Trophäe: 8 kg 
+        Seltene Trophäe: 12 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Der Zander (Sander lucioperca) gehört zur Familie der Barsche. Er ist der größte im Süßwasser lebende Vertreter der Barschartigen Europas. Dort lebt er vom Stromgebiet des Rheins bis zum Ural sowie in West-Asien, in der nordwestlichen Türkei und rund um das Kaspische Meer. Zander kommen auch im Brackwasser der gesamten Ostsee vor. Der Zander hat einen langgestreckten, spindelförmigen Körper. Als Vertreter der Barschartigen besitzt er zwei Rückenflossen, die vordere mit harten Stachelstrahlen, die hintere mit Weichstrahlen. Der Kopf ist zugespitzt, das Maul tief gespalten. Darin stehen ungleichmäßig die langen, spitzen Fangzähne (Hundszähne) neben kleineren Bürstenzähnen. Der Körper ist von kleinen Kammschuppen bedeckt. Ernährung: Der Zander jagt kleinere Fische wie Rotaugen, Güstern, Barsche oder Lauben. Maße: Mittlere Länge: 40-50 cm. In seltenen Fällen wird der Zander aber bis 1,30 m lang und erreicht dabei ein Gewicht von bis zu 20 kg.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2018_05/e.pikeperch_m.thumb.png.6b29158857948b05ea78e63aa1340fe9.png'
+    },
+
+    {
+        name: 'Fluss Wandermuschel',
+        text: `Normale Trophäe: 150 g 
+        Seltene Trophäe: 210 g
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Wandermuschel (Dreissena polymorpha), auch Zebramuschel genannt, ist ein weit verbreiteter Bewohner der einheimischen Gewässer. Sie hat eine charakteristische dreieckige Form, ist gelblich oder grünlich gefärbt und trägt eine typische Zeichnung in Form eines Zickzack- Musters oder querlaufenden braunen Streifen. Manchmal können wegen der Besonderheiten des Gewässers kleinere Wandermuscheln auch eine dunkle Färbung haben. Wandermuscheln siedeln in Kolonien und kleben dabei an Steinen oder anderen Gegenständen bzw. liegen auf dem Grund. Das Fleisch der Wandermuschel ist ein guter Köder für den Fang von Fischen wie Jungbrachsen, Brachsen und sogar Rotaugen. Gern wird es auch von Karpfen und Welsen verspeist. Ernährung: Muscheln filtern Algen, Schwebeteilchen und kleines Plankton aus dem Wasser. Maße: Die Muschel kann eine Länge von 26–40 mm bei einer Breite von 17-20 mm erreichen.`,
+        image:'https://rf4game.de/forum/uploads/monthly_2017_09/dreissena_one.thumb.png.08516157f9ab79539e53cad75f18c634.png'
+    },
 
 
 ];
