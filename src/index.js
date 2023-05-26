@@ -1818,6 +1818,9 @@ const fishes = [
     image: 'https://rf4game.de/forum/uploads/monthly_2017_09/dreissena_one.thumb.png.08516157f9ab79539e53cad75f18c634.png'
   },
 
+  // to-do 
+    // kaspi Maifisch fehlt
+
 
 ];
 
