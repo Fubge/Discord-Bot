@@ -99,11 +99,10 @@ const fishes = [
   },
 
   {
-    name: 'Atlantischer Blauflossenthunfisch',
+    name: 'Blauflossen Thunfisch',
     text: `Normale Trophäe: ???
-        Seltene Trophäe: ???
-        Lebensraum: Unbekannt`,
-    image: ''
+        Seltene Trophäe: ???`,
+    image: 'https://rf4.info/img/fish/191.png'
   },
   // to-do Ab hier kein Lebenraum mehr eingetragen 
   {
