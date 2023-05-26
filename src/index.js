@@ -1,4 +1,5 @@
 require('dotenv').config();
+const keep_alive = require("./keep_alive.js");
 const mySecret = process.env['MY-KEY']
 const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder } = require('discord.js');
 
