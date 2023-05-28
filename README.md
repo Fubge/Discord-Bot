@@ -29,7 +29,7 @@ Example
 
 ![grafik](https://github.com/Fubge/RF-4-Fish-Infos-Discord-Bot/assets/115476150/ca6c55a6-2da5-43a0-b909-039c8552431f)
 
-The above image shows an example of the bot's output for the two exaples. It provides relevant information about the fish and indicates that it becomes a super trophy at a weight of 4 kg.
+The above images are showing two examples of the bot's output. It provides relevant information about the fish and indicates that it becomes a super trophy at a weight of 4 kg.
 
 ## Feedback and Contributions
 
