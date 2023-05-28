@@ -24,6 +24,10 @@ Example
 
 ## Example
 
+![grafik](https://github.com/Fubge/RF-4-Fish-Infos-Discord-Bot/assets/115476150/b8c6d73f-1e5e-4a28-8f81-7b54a943294e)
+
+![grafik](https://github.com/Fubge/RF-4-Fish-Infos-Discord-Bot/assets/115476150/ca6c55a6-2da5-43a0-b909-039c8552431f)
+
 The above image shows an example of the bot's output for the "Northern Pike" fish. It provides relevant information about the fish and indicates that it becomes a super trophy at a weight of 30 kg.
 Feedback and Contributions
 
