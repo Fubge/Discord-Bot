@@ -10,7 +10,16 @@ The bot has already been updated with the new fish species introduced in the Nor
 
 To use the bot, you need to host the files on a platform like Replit. It is important that you replace the bot's token in the index.js file with the token of your own Discord bot. You can find information on creating your own Discord bot on the Discord Developer Portal.
 
-The bot currently supports the German language as its primary language. However, if there is enough demand for it, I can consider incorporating an English language option in the future.
+To host the bot, follow these steps:
+
+    Sign up for a hosting platform like Replit.
+    Create a new Replit project and import the bot's files.
+    Locate the index.js file and open it.
+    Replace the placeholder token in the file with the token of your own Discord bot.
+    Save the changes to the file.
+    Start the Replit project to host and run the bot.
+
+Please note that you need to have your own Discord bot created and obtain its token from the Discord Developer Portal. This token acts as an authentication key for your bot to connect to Discord's servers.
 
 The bot will respond with the following information:
 
@@ -21,7 +30,6 @@ The bot will respond with the following information:
     The weight at which the fish becomes a trophy or a super trophy
 
 Feel free to explore various fish species and discover their trophy weight thresholds!
-Example
 
 ## Example
 
