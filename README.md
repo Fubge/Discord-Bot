@@ -5,7 +5,8 @@
 This is a small hobby project I created for the game Russian Fishing 4. It is a Discord bot that provides some basic information about different fish species, primarily focusing on the weight at which a fish becomes a trophy or a super trophy. The bot accepts input of the fish's name and returns relevant details.
 
 The bot has already been updated with the new fish species introduced in the Northern Waters expansion. However, if you notice any missing fish or encounter any bugs, please let me know so that I can address them.
-Usage
+
+## Usage
 
 To use the bot, you need to host the files on a platform like Replit. It is important that you replace the bot's token in the index.js file with the token of your own Discord bot. You can find information on creating your own Discord bot on the Discord Developer Portal.
 
