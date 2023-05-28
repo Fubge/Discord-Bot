@@ -6,28 +6,13 @@ This is a small hobby project I created for the game Russian Fishing 4. It is a 
 
 The bot has already been updated with the new fish species introduced in the Northern Waters expansion. However, if you notice any missing fish or encounter any bugs, please let me know so that I can address them.
 
-## Usage
-
-To use the bot, you need to host the files on a platform like Replit. It is important that you replace the bot's token in the index.js file with the token of your own Discord bot. You can find information on creating your own Discord bot on the Discord Developer Portal.
-
-To host the bot, follow these steps:
-
-    Sign up for a hosting platform like Replit.
-    Create a new Replit project and import the bot's files.
-    Locate the index.js file and open it.
-    Replace the placeholder token in the file with the token of your own Discord bot.
-    Save the changes to the file.
-    Start the Replit project to host and run the bot.
-
-Please note that you need to have your own Discord bot created and obtain its token from the Discord Developer Portal. This token acts as an authentication key for your bot to connect to Discord's servers.
-
 The bot will respond with the following information:
 
-    Species of the fish
-    Image of the fish
-    Preferred bait and tackle (TBA)
-    Suggested fishing locations (TBA)
-    The weight at which the fish becomes a trophy or a super trophy
+- Species of the fish
+- Image of the fish
+- Preferred bait and tackle (TBA)
+- Suggested fishing locations (TBA)
+- The weight at which the fish becomes a trophy or a super trophy
 
 Feel free to explore various fish species and discover their trophy weight thresholds!
 
@@ -44,6 +29,21 @@ The above images are showing two examples of the bot's output. It provides relev
 I welcome any feedback or suggestions for improving this Discord bot. If you encounter any issues, have ideas for new features, or would like to contribute to the project, please don't hesitate to reach out to me.
 
 Thank you for using the Russian Fishing 4 Discord bot, and I hope it enhances your fishing experience in the game!
+
+## Usage
+
+To use the bot, you need to host the files on a platform like Replit. It is important that you replace the bot's token in the index.js file with the token of your own Discord bot. You can find information on creating your own Discord bot on the Discord Developer Portal.
+
+To host the bot, follow these steps:
+
+- Sign up for a hosting platform like Replit.
+- Create a new Replit project and import the bot's files.
+- Locate the index.js file and open it.
+- Replace the placeholder token in the file with the token of your own Discord bot.
+- Save the changes to the file.
+- Start the Replit project to host and run the bot.
+
+Please note that you need to have your own Discord bot created and obtain its token from the Discord Developer Portal. This token acts as an authentication key for your bot to connect to Discord's servers.
 
 
 ### Copyright (C) 2023 Fubge
