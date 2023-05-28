@@ -1092,7 +1092,7 @@ const fishes = [
   },
 
   {
-    name: 'Nase ',
+    name: 'Nase',
     text: `Normale Trophäe: 800 g 
         Seltene Trophäe: 1300 g
         
