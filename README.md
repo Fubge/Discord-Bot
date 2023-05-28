@@ -24,12 +24,6 @@ Feel free to explore various fish species and discover their trophy weight thres
 
 The above images are showing two examples of the bot's output. It provides relevant information about the fish and indicates that it becomes a super trophy at a weight of 4 kg.
 
-## Feedback and Contributions
-
-I welcome any feedback or suggestions for improving this Discord bot. If you encounter any issues, have ideas for new features, or would like to contribute to the project, please don't hesitate to reach out to me.
-
-Thank you for using the Russian Fishing 4 Discord bot, and I hope it enhances your fishing experience in the game!
-
 ## Usage
 
 To use the bot, you need to host the files on a platform like Replit. It is important that you replace the bot's token in the index.js file with the token of your own Discord bot. You can find information on creating your own Discord bot on the Discord Developer Portal.
@@ -45,6 +39,11 @@ To host the bot, follow these steps:
 
 Please note that you need to have your own Discord bot created and obtain its token from the Discord Developer Portal. This token acts as an authentication key for your bot to connect to Discord's servers.
 
+## Feedback and Contributions
+
+I welcome any feedback or suggestions for improving this Discord bot. If you encounter any issues, have ideas for new features, or would like to contribute to the project, please don't hesitate to reach out to me.
+
+Thank you for using the Russian Fishing 4 Discord bot, and I hope it enhances your fishing experience in the game!
 
 ### Copyright (C) 2023 Fubge
 
