@@ -191,7 +191,7 @@ const fishes = [
   },
 
   {
-    name: 'Kleiner Rotbarsch',
+    name: 'Tiefen Rotbarsch',
     text: `Normale Trophäe: 5,5 kg 
         Seltene Trophäe: 7 kg`,
     image: 'https://rf4game.de/forum/uploads/monthly_2023_04/image.thumb.png.d7d5ef70b0053e47d5d68da2d94dc564.png'
@@ -209,14 +209,7 @@ const fishes = [
 
   },
 
-  {
-    name: 'Kleiner Rotbarsch',
-    text: `Normale Trophäe: 5,5 kg 
-        Seltene Trophäe: 7 kg`,
-    image: 'https://rf4game.de/forum/uploads/monthly_2023_04/image.thumb.png.d7d5ef70b0053e47d5d68da2d94dc564.png'
-  },
-
-  {
+ {
     name: 'Weißlachs',
     text: `Normale Trophäe: 15 kg 
         Seltene Trophäe: 25 kg
@@ -1491,7 +1484,7 @@ const fishes = [
   },
 
   {
-    name: 'Silberkarpfen ',
+    name: 'Silberkarpfen',
     text: `Normale Trophäe: 25 kg 
         Seltene Trophäe: 40 kg
         
