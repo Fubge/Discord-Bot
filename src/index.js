@@ -29,7 +29,7 @@ const fishes = [
   },
 
   {
-    name: 'Amur Wels',
+    name: 'Amurwels',
     text: `Normale Trophäe: 5 kg
         Seltene Trophäe: 7 kg
         Lebensraum: Untere Tunguska
