@@ -15,6 +15,7 @@ client.on('ready', (c) => {
   console.log(`✅ ${c.user.username} is online.`);
 })
 
+// Array for every fish
 const fishes = [
 
   {
@@ -1816,11 +1817,12 @@ const fishes = [
 
 
 ];
-
+// Listen for Message 
 client.on('messageCreate', (message) => {
   if (message.author.bot) {
     return;
   }
+  // Loop over the array
   for (fish of fishes) {
     if (message.content.toLowerCase() == fish.name.toLowerCase()) {
       message.reply({
@@ -1839,6 +1841,6 @@ client.on('messageCreate', (message) => {
     }
   }
 });
-
+// Change $mySecret$ to your bots token 
 client.login(mySecret);
 
