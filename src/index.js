@@ -200,8 +200,8 @@ const fishes = [
 
   {
     name: 'Barsch',
-    text: `Normale Trophäe: 100kg
-        Seltene Trophäe: 200kg
+    text: `Normale Trophäe: 1,6kg
+        Seltene Trophäe: 2,7kg
         Lebensraum: Achtuba
         
         Beschreibung und natürliches Vorkommen: 
