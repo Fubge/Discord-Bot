@@ -370,6 +370,16 @@ const fishes = [
     image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FafTRtzS_BJM%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=a61125d6148f7d5794c6addd8060a294f10a0f5c9048e5dd650262e78f961565&ipo=images'
   },
 
+   {
+    name: 'Brasse',
+    text: `Normale Trophäe: 4,4 kg 
+        Seltene Trophäe: 7 kg
+        
+        Beschreibung und natürliches Vorkommen: 
+        Die Brachse (Abramis brama) ist Fischart aus der Familie der Karpfenfische (Cyprinidae). Brachsen sind in Europa nördlich der Alpen und Pyrenäen sowie auf dem Balkan weit verbreitet. Im Osten findet man sie bis zum Kaspischen Meer, dem Schwarzen Meer sowie dem Aralsee und Balchaschsee. Brachsen bevorzugen Gewässer mit schlammigem Grund und Wasserpflanzenteppichen, welche Deckung und Nahrung bieten. Sie leben vor allem in der nach ihnen benannten Brachsenregion sehr langsam fließender Flüsse (vor allem in Unterläufen) und in Seen mit einem hohen Nährstoffanteil und schlammigem Grund. Brachsen haben einen seitlich stark zusammengedrückten und sehr hochrückigen Körper. Der Rücken ist meist dunkel und braun bis grüngold. Die Flanken variieren zwischen dunkelbraun und goldbraun. Der Bauch ist weiß. Der untere Teil der Schwanzflosse ist länger als der obere. Die Spitzen der Brustflossen reichen bis zum Ansatz der Bauchflossen. Der Ansatz der Afterflosse liegt bei der Brachse meistens gegenüber dem Ansatz bzw. der vorderen Hälfte der Rückenflosse. Der Kopf ist ebenso wie die Augen verhältnismäßig klein. Das Maul ist mäßig unterständig und leicht vorstülpbar. Die Brachse ist ein scheuer Fisch und reagiert rasch auf Störgeräusche, deshalb hält sie sich gern in tieferen Wasserlöchern auf. Durch ihre Wühltätigkeit bei der Nahrungsaufnahme trübt sich das Wasser in ihrer Umgebung meist deutlich ein und es bleiben die typischen Fraßtrichter zurück, die ein Hinweis auf ihr Vorkommen sind. Die Brachse hat 10 einreihige Schlundzähne, um ihre Nahrung festzuhalten und zu zerquetschen. Ernährung: Brachsen suchen ihre aus Kleinlebewesen, Würmern und Insektenlarven bestehende Nahrung in der Schlammschicht des Gewässergrundes. Auch pflanzliche Kost wird gefressen. Maße: Die Durchschnittsgröße einer Brachse beträgt 30 - 45 cm, große Exemplare können bis zu 75 cm groß werden und ein Gewicht bis zu 8 kg erreichen`,
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FafTRtzS_BJM%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=a61125d6148f7d5794c6addd8060a294f10a0f5c9048e5dd650262e78f961565&ipo=images'
+  },
+
   {
     name: 'Große Bodenrenke',
     text: `Normale Trophäe: 7 kg 
