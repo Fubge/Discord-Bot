@@ -1,6 +1,6 @@
 require('dotenv').config();
 const keep_alive = require("./keep_alive.js");
-const mySecret = process.env['MY-KEY']
+const mySecret = process.env['mySecret']
 const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder } = require('discord.js');
 
 const client = new Client({
@@ -210,7 +210,7 @@ const fishes = [
 
   },
 
- {
+  {
     name: 'Weißlachs',
     text: `Normale Trophäe: 15 kg 
         Seltene Trophäe: 25 kg
@@ -370,7 +370,7 @@ const fishes = [
     image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FafTRtzS_BJM%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=a61125d6148f7d5794c6addd8060a294f10a0f5c9048e5dd650262e78f961565&ipo=images'
   },
 
-   {
+  {
     name: 'Brasse',
     text: `Normale Trophäe: 4,4 kg 
         Seltene Trophäe: 7 kg
@@ -1823,7 +1823,7 @@ const fishes = [
   },
 
   // to-do 
-    // kaspi Maifisch fehlt
+  // kaspi Maifisch fehlt
 
 
 ];
