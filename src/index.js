@@ -85,6 +85,13 @@ const fishes = [
     image: 'https://rf4.info/img/fish/196.png'
   },
 
+   {
+    name: 'Königskrabbe',
+    text: `Normale Trophäe: 7,5 kg 
+        Seltene Trophäe: 9 kg      
+    image: 'https://rf4.info/img/fish/195.png'
+  },
+
   {
     name: 'Regenbogenstint',
     text: `Normale Trophäe: 270 g
