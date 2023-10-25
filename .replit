@@ -1,7 +1,7 @@
 
 hidden = [".config", "package-lock.json"]
 run = "nodemon"
-entrypoint = "index.js"
+entrypoint = "src/index.js"
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
