@@ -78,6 +78,13 @@ const fishes = [
     image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frf4game.de%2Fforum%2Fuploads%2Fmonthly_2023_04%2Fimage.png.b59eb4ecf83e7ae88a29618eba2468e8.png&f=1&nofb=1&ipt=3ca9fb3bd5f61f482a08b72ec78fe7c2c933e8b06b6602d1ec342dd8a860cbf7&ipo=images'
   },
 
+   {
+    name: 'Taschenkrebs',
+    text: `Normale Trophäe: 1,8 kg 
+        Seltene Trophäe: 2,2 kg      
+    image: 'https://rf4.info/img/fish/196.png'
+  },
+
   {
     name: 'Regenbogenstint',
     text: `Normale Trophäe: 270 g
