@@ -92,6 +92,74 @@ const fishes = [
     image: 'https://rf4.info/img/fish/195.png'
   },
 
+ {
+    name: 'Seehase',
+    text: `Normale Trophäe: 6 kg 
+        Seltene Trophäe: 8 kg 
+        Beschreibung:
+        Der Seehase bewohnt den nördlichen Atlantik und die Meere des Arktischen Ozeans. Er bevorzugt Tiefen von 25 bis 200 Metern, ist aber auch in Tiefen von bis zu 400 Metern zu finden.
+Der Seehase hat einen großen, großäugigen Kopf und einen abgerundeten Körper, der mit Reihen harter Wucherungen besetzt ist. Die Körperfarbe variiert von grau, manchmal mit blauem oder grünem Schimmer, bis hin zu grünlich-oliv, wobei der Bauch deutlich heller ist. Die übliche Länge eines erwachsenen Fisches beträgt 30-40 cm. Die maximal aufgezeichnete Länge beträgt 75 cm. 
+    image: 'https://rf4.info/img/fish/205.png'
+  },
+
+   {
+    name: 'Kliesche',
+    text: `Normale Trophäe: 3 kg
+        Seltene Trophäe: Unbekannt  
+        Lebensraum: Windenbach, Fluss Belaja, Fluss Sura, Wolchow, Achtuba
+        
+        Beschreibung und natürliches Vorkommen: 
+       (lat. Limanda proboscidea) Diese Variation der Kliesche kommt im Nordatlantik vor - vom Golf von Biskaya im Süden bis Island, vor der Küste Norwegens und in der Barentssee und im Weißen Meer. Sie lebt benthisch und hält sich gewöhnlich in einer Tiefe von 10-120 m auf.
+Die Kliesche hat einen langen Körper mit einer verlängerten Schnauze. Die Augenseite ist graubraun bis grünlich-braun. Die Blindseite ist zitronengelb. Die übliche Größe erwachsener Exemplare beträgt 30-55 cm. Die maximal gemessene Körperlänge beträgt 75 cm. `,
+    image: 'https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.ed7659ecd78c0d7511aa479a033bdc9f.jpeg'
+  },
+
+     {
+    name: 'Doggerscharbe',
+    text: `Normale Trophäe: 4 kg
+        Seltene Trophäe: 5 kg `,
+    image: 'https://rf4.info/img/fish/199.png'
+  },
+
+     {
+    name: 'Riesenhai',
+    text: `Normale Trophäe: Unbekannt
+        Seltene Trophäe: Unbekannt  
+               
+      Die Riesenhaie (lat. Cetorhinus maximus) leben in den Gewässern des Atlantiks und des Pazifischen Ozeans. Sie leben allein oder in kleinen Gruppen in Tiefen von bis zu 1000 Metern.
+Riesenhaie sind nach den Walhaien die zweitgrößten Fische der Welt. Er kann bis zu 10 Meter lang werden und wiegt 4 Tonnen. Diese Haie haben einen massiven graubraunen Körper, eine konische Schnauze, ein riesiges Maul und sehr große Kiemenschlitze.  `,
+    image: 'https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.5986ade466afd702d49526b133bcce58.jpeg'
+  },
+
+       {
+    name: 'Kragenhai',
+    text: `Normale Trophäe: Unbekannt
+        Seltene Trophäe: Unbekannt  
+               
+     Der Kragenhai (lat. Chlamydoselachus anguineus) lebt in den Gewässern des Pazifiks und des Atlantiks. Er gilt als der König der tiefen Unterwasserwelt. Man findet ihn in Tiefen von bis zu 1000 Metern. Dies ist einer der einzigartigsten Fische. Dieses Unterwasserraubtier hat sich seit der Kreidezeit kaum weiterentwickelt. Er hat einen großen, breiten und abgeflachten Kopf. Die Augen sind grün. Der Körper ist bräunlich-schwarz gefärbt. Der Kragenhai kann bis zu 2 m lang und 100 kg schwer werden. Eine seltene Trophäe, von deren Besitz jeder Angler träumt.`,
+    image: 'https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.fae164590709e5658818db368c5dd88c.jpeg'
+  },
+
+    {
+    name: 'Seekatze',
+    text: `Normale Trophäe: Unbekannt
+        Seltene Trophäe: Unbekannt  
+               
+   Die Seekatze ist im östlichen Atlantik und den angrenzenden Meeren des Arktischen Ozeans zu finden. Vor der Küste Norwegens ist sie am häufigsten in einer Tiefe von 120-500 m zu finden.
+Die Seekatze hat einen länglichen, zum Schwanz hin spitz zulaufenden Körper und einen dicken Kopf mit einer abgerundeten Schnauze. Der Rücken ist dunkelbraun mit einem rötlichen Schimmer, die Flanken sind gefleckt und der Bauch ist blass. Ausgewachsene Tiere werden bis zu anderthalb Meter lang.`,
+    image: 'https://rf4.info/img/fish/208.png'
+  },
+
+      {
+    name: 'Grenadierfisch',
+    text: `Normale Trophäe: 3kg
+        Seltene Trophäe: Unbekannt  
+               
+ Der Grenadierfisch (lat. Macrourus berglax ) ist ein ausgezeichneter Speisefisch aus der Familie der Dorschartigen, der in den kalten Gewässern des westlichen, östlichen und nördlichen Atlantiks vorkommt. In der Barentssee ist er vor der Küste von Murmansk zu finden. Er lebt in tiefen Gewässern (von 100 bis 600 m oder mehr) und steigt selten in die mittleren Wasserschichten auf. Er bewohnt die kontinentalen Hänge.
+Sein Körper ist breit und grau (mit einem dunkleren Rücken) und verjüngt sich am Kopf zum Schwanz hin. Das Maul ist niedriger mit kleinen Zähnen. Die Augen sind groß und von ovaler Form. Der Körper ist mit großen und dichten Schuppen bedeckt, deren steife Widerhaken zum Schwanz hin gerichtet sind. Die Schwanzflosse ist nicht vorhanden. Das Gewicht der handelsüblichen Exemplare liegt zwischen 400 g und 1,5 kg bei einer Körperlänge von 40-60 cm. Die maximale Größe beträgt etwa 1 m bei einem Gewicht von etwa 5 kg. `,
+    image: 'https://rf4.info/img/fish/169.png'
+  },
+
   {
     name: 'Regenbogenstint',
     text: `Normale Trophäe: 270 g
