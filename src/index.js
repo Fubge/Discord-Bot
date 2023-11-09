@@ -186,6 +186,17 @@ Sein Kopf und sein oberer Rücken sind rötlich-braun gefärbt. Die Seiten sind 
       "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.5baedfb9a14b2d46b4d7cf551655aad2.jpeg",
   },
 
+  {
+    name: "Schwarzfisch",
+    text: `Normale Trophäe: 23kg
+        Seltene Trophäe: 30kg  
+
+     Er lebt in den gemäßigten Breiten des Nord- und Südatlantiks und des südöstlichen Pazifiks abseits der Küste. Erwachsene Exemplare bevorzugen es, sich in einer Tiefe von etwa 100 Metern aufzuhalten.
+Der Schwarzfisch (Centrolophus niger)hat einen kleinen Kopf und einen ovalen, seitlich zusammengedrückten Körper, gleichmäßig braun gefärbt. Die Länge der ausgewachsenen Exemplare beträgt normalerweise 45-84 cm. Die maximale aufgezeichnete Länge beträgt ca. 150 cm. `,
+    image:
+      "https://rf4game.de/forum/uploads/monthly_2023_04/image.thumb.png.bf3a744e9e55aa574f7c362b1750821b.png",
+  },
+
   
   {
     name: "Seekatze",
