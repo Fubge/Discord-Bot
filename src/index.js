@@ -294,11 +294,14 @@ Sein Körper ist breit und grau (mit einem dunkleren Rücken) und verjüngt sich
         Seltene Trophäe: 11 kg (Noch nicht bestätigt)`,
     image: "https://rf4.info/img/fish/177.png",
   },
-  // to-do beschreibung einfügen atlantischer lachs
+
   {
     name: "Atlantischer Lachs",
     text: `Normale Trophäe: 30 kg 
-        Seltene Trophäe: 38 kg `,
+        Seltene Trophäe: 38 kg 
+        
+        Beschreibung und natürliches Vorkommen:
+         Der Baltische Stör (Acipenser oxyrinchus) ist ein atlantischer Stör, der in der Ostsee lebt. Zum Laichen wandert er von der Ostsee zur Newa, und von dort steigt er weiter zum Ladoga-See auf. Ernährung: Der Baltische Stör führt ein räuberisches Leben und jagt in der Wassersäule nach kleinen Schwarmfischen. Er frisst aber auch Mollusken und benthische Wirbellose. Maße: Dieser Stör kann eine Länge von 3 m und eine Masse von mehr als 200 kg erreichen. Besonders große Exemplare können bei einer Länge von ca. 6 m mehr als 400 kg wiegen.`,    
     image:
       "https://rf4game.com/forum/uploads/monthly_2017_10/a_salmon_m.thumb.png.d812ac9171012b11c1fb50261f0599bf.png",
   },
