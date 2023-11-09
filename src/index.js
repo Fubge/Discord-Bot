@@ -137,7 +137,7 @@ Die Kliesche hat einen langen Körper mit einer verlängerten Schnauze. Die Auge
     text: `Normale Trophäe: Unbekannt
         Seltene Trophäe: Unbekannt  
                
-      Die Riesenhaie (lat. Cetorhinus maximus) leben in den Gewässern des Atlantiks und des Pazifischen Ozeans. Sie leben allein oder in kleinen Gruppen in Tiefen von bis zu 1000 Metern.
+      Die Riesenhaie (lat. Cetorhinus maximus) leben in den Gewässern des Atlantiks und des Pazifischen Ozeans. Sie leben allein oder in kleinen Gruppen in Tiefen von bis zu 1000   Metern.
 Riesenhaie sind nach den Walhaien die zweitgrößten Fische der Welt. Er kann bis zu 10 Meter lang werden und wiegt 4 Tonnen. Diese Haie haben einen massiven graubraunen Körper, eine konische Schnauze, ein riesiges Maul und sehr große Kiemenschlitze.  `,
     image:
       "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.5986ade466afd702d49526b133bcce58.jpeg",
@@ -153,6 +153,50 @@ Riesenhaie sind nach den Walhaien die zweitgrößten Fische der Welt. Er kann bi
       "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.fae164590709e5658818db368c5dd88c.jpeg",
   },
 
+  {
+    name: "Wrackbarsch",
+    text: `Normale Trophäe: 60kg
+        Seltene Trophäe: 75kg  
+
+      Der Wrackbarsch (lat. Polyprion americanus) ist in den Gewässern aller Ozeane weit verbreitet, am häufigsten kommt er jedoch im Ostatlantik vor: von Norwegen bis Südafrika, einschließlich des Mittelmeers. Er lebt benthisch und in Tiefen von 25 bis 400 Metern.
+Der Wrackbarsch hat einen massiven, abgeflachten Körper mit einem großen Kopf. Der Körper des Fisches ist dunkelgrau-braun gefärbt. Die Bauchseite ist gelb gefärbt. Ein ausgewachsener Fisch kann eine Länge von über 2 Metern erreichen und bis zu 100 kg wiegen.`,
+    image:
+      "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.7bdd8ddcfbf49660f16ed1a9db034601.jpeg",
+  },
+
+  {
+    name: "Langohr Aalmutter",
+    text: `Normale Trophäe: 1,2kg
+        Seltene Trophäe: 1,5kg  
+
+      Dieser Fisch kommt hauptsächlich in den Gewässern des Arktischen Ozeans und in der Grönland-, Kara-, Barents- und Norwegischen See vor und lebt normalerweise in Tiefen von 150-500 m.
+Die Färbung kann einfarbig, dunkel oder gestreift sein. Die Intensität der monochromen Farbgebung variiert von hellen Tönen bis fast schwarz. Der Bauch ist dunkel, dicht pigmentiert mit bräunlich-schwarzen Punkten. Als Erwachsener kann er bis zu 60 cm lang werden. `,
+    image:
+      "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.9281b5110be4251d771e4b68adaa8518.jpeg",
+  },
+  
+  {
+    name: "Gewöhnlicher Leng",
+    text: `Normale Trophäe: 30kg
+        Seltene Trophäe: 40kg  
+
+     Der Leng ist im östlichen Atlantik in der Nähe der skandinavischen Küste verbreitet.  Er ist auch in den Gewässern der Nordsee und der Skagerrakstraße zu finden. Der Leng ist ein pelagischer Fisch, der Tiefen von 50 bis 200 Metern bevorzugt.
+Sein Kopf und sein oberer Rücken sind rötlich-braun gefärbt. Die Seiten sind heller gefärbt. Der Bauch ist gelb oder weiß. Ausgewachsene Seehechte können bis zu zwei Meter lang werden. `,
+    image:
+      "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.5baedfb9a14b2d46b4d7cf551655aad2.jpeg",
+  },
+
+  {
+    name: "Gewöhnlicher Leng",
+    text: `Normale Trophäe: 30kg
+        Seltene Trophäe: 40kg  
+
+     Der Leng ist im östlichen Atlantik in der Nähe der skandinavischen Küste verbreitet.  Er ist auch in den Gewässern der Nordsee und der Skagerrakstraße zu finden. Der Leng ist ein pelagischer Fisch, der Tiefen von 50 bis 200 Metern bevorzugt.
+  Sein Kopf und sein oberer Rücken sind rötlich-braun gefärbt. Die Seiten sind heller gefärbt. Der Bauch ist gelb oder weiß. Ausgewachsene Seehechte können bis zu zwei Meter lang werden. `,
+    image:
+      "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.5baedfb9a14b2d46b4d7cf551655aad2.jpeg",
+  },
+  
   {
     name: "Seekatze",
     text: `Normale Trophäe: Unbekannt
