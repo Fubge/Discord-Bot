@@ -113,6 +113,16 @@ Der Seehase hat einen großen, großäugigen Kopf und einen abgerundeten Körper
   },
 
   {
+    name: "Sternrochen",
+    text: `Normale Trophäe: 11 kg 
+        Seltene Trophäe: 14 kg 
+        Beschreibung:
+        Der Sternrochen (lat. Amblyraja radiata) ist weit verbreitet im nördlichen Atlantik. Man findet ihn auch in den Gewässern der Barentssee, der Kara und des Weißen Meeres. Er lebt benthisch in einer Tiefe von bis zu 400 Metern. 
+Er hat einen rautenförmigen Körper. Sein Rücken ist olivbraun mit einem Muster aus hellen und dunklen Flecken. Die Bauchseite ist hell. Er erreicht eine Körperlänge von 0,8 m und ein Gewicht von 2 kg. `,
+    image: "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.92aff31bda36f88b268fecca57af8407.jpeg",
+  },
+
+  {
     name: "Kliesche",
     text: `Normale Trophäe: 3 kg
         Seltene Trophäe: Unbekannt  
