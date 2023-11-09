@@ -186,16 +186,6 @@ Sein Kopf und sein oberer Rücken sind rötlich-braun gefärbt. Die Seiten sind 
       "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.5baedfb9a14b2d46b4d7cf551655aad2.jpeg",
   },
 
-  {
-    name: "Gewöhnlicher Leng",
-    text: `Normale Trophäe: 30kg
-        Seltene Trophäe: 40kg  
-
-     Der Leng ist im östlichen Atlantik in der Nähe der skandinavischen Küste verbreitet.  Er ist auch in den Gewässern der Nordsee und der Skagerrakstraße zu finden. Der Leng ist ein pelagischer Fisch, der Tiefen von 50 bis 200 Metern bevorzugt.
-  Sein Kopf und sein oberer Rücken sind rötlich-braun gefärbt. Die Seiten sind heller gefärbt. Der Bauch ist gelb oder weiß. Ausgewachsene Seehechte können bis zu zwei Meter lang werden. `,
-    image:
-      "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.5baedfb9a14b2d46b4d7cf551655aad2.jpeg",
-  },
   
   {
     name: "Seekatze",
