@@ -184,7 +184,7 @@ Die Färbung kann einfarbig, dunkel oder gestreift sein. Die Intensität der mon
     image:
       "https://rf4game.de/forum/uploads/monthly_2023_10/image.thumb.jpeg.9281b5110be4251d771e4b68adaa8518.jpeg",
   },
-  
+
   {
     name: "Gewöhnlicher Leng",
     text: `Normale Trophäe: 30kg
@@ -207,7 +207,7 @@ Der Schwarzfisch (Centrolophus niger)hat einen kleinen Kopf und einen ovalen, se
       "https://rf4game.de/forum/uploads/monthly_2023_04/image.thumb.png.bf3a744e9e55aa574f7c362b1750821b.png",
   },
 
-  
+
   {
     name: "Seekatze",
     text: `Normale Trophäe: Unbekannt
@@ -301,7 +301,7 @@ Sein Körper ist breit und grau (mit einem dunkleren Rücken) und verjüngt sich
         Seltene Trophäe: 38 kg 
         
         Beschreibung und natürliches Vorkommen:
-         Der Baltische Stör (Acipenser oxyrinchus) ist ein atlantischer Stör, der in der Ostsee lebt. Zum Laichen wandert er von der Ostsee zur Newa, und von dort steigt er weiter zum Ladoga-See auf. Ernährung: Der Baltische Stör führt ein räuberisches Leben und jagt in der Wassersäule nach kleinen Schwarmfischen. Er frisst aber auch Mollusken und benthische Wirbellose. Maße: Dieser Stör kann eine Länge von 3 m und eine Masse von mehr als 200 kg erreichen. Besonders große Exemplare können bei einer Länge von ca. 6 m mehr als 400 kg wiegen.`,    
+         Der Baltische Stör (Acipenser oxyrinchus) ist ein atlantischer Stör, der in der Ostsee lebt. Zum Laichen wandert er von der Ostsee zur Newa, und von dort steigt er weiter zum Ladoga-See auf. Ernährung: Der Baltische Stör führt ein räuberisches Leben und jagt in der Wassersäule nach kleinen Schwarmfischen. Er frisst aber auch Mollusken und benthische Wirbellose. Maße: Dieser Stör kann eine Länge von 3 m und eine Masse von mehr als 200 kg erreichen. Besonders große Exemplare können bei einer Länge von ca. 6 m mehr als 400 kg wiegen.`,
     image:
       "https://rf4game.com/forum/uploads/monthly_2017_10/a_salmon_m.thumb.png.d812ac9171012b11c1fb50261f0599bf.png",
   },
@@ -1453,7 +1453,7 @@ Sein Körper ist breit und grau (mit einem dunkleren Rücken) und verjüngt sich
 
   {
     name: "Heringshai",
-    text: `Normale Trophäe: 150 kg 
+    text: `Normale Trophäe: 140 kg 
         Seltene Trophäe: 200 kg
         
         Lamna nasus range extends from the western Atlantic to the coast of Argentina. In the eastern Atlantic it can be found in both Iceland and South Africa. It is most commonly found near the water's surface but can descend to depths of 500 meters. The Porbeagle has a characteristic appearance of a typical shark. The upper part of its spindle-shaped body has a bluish-gray color, while the belly is light, almost white. The Porbeagle has large triangular teeth. Individuals of this shark species can reach just over 4 m in length with a weight of about 250 kg. `,
