@@ -545,8 +545,8 @@ Sein Körper ist breit und grau (mit einem dunkleren Rücken) und verjüngt sich
 
   {
     name: "Schwarzmeer Kutum",
-    text: `Normale Trophäe: 500 kg
-        Seltene Trophäe: 1000 kg
+    text: `Normale Trophäe: 5,5 kg
+        Seltene Trophäe: 7,5 kg
 
         Beschreibung und natürliches Vorkommen:
         Der Schwarzmeer-Kutum (Rutilus frisii) ist ein Mitglied der Karpfenfamilie und lebt im Schwarzen und Asowschen Meer. Der gedrungene Körper ist mit großen Schuppen bedeckt; der Rücken ist dunkelgrün, die Seiten sind silbrig. Ernährung: In der Regel ziehen es die Fische vor, in Bodennähe zu bleiben und dort nach Kleinlebewesen und anderer Nahrung zu suchen. Gelegentlich kommen sie aber auch an die Wasseroberfläche. Man kann sie also mit einer Vielzahl unterschiedlicher Angel-Montagen fangen. Maße: Erwachsene Fische können bis zu 75 cm lang werden.`,
